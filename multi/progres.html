@@ -1,0 +1,1453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/avatar.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Poppins:wght@400;500;600;700&family=Rasa:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+    <style>
+      .wrapphone{
+    width:100%;
+    height: 150vh;
+
+}
+.headerr1{
+    width: 100%;
+    height: 15vh;
+
+    display: flex;
+    padding: 0 20px;
+    animation-name: header;
+            animation-duration: 3s;
+            animation-iteration-count: 1;
+}
+.leftwerh_w11{
+    width: 50%;
+    height: 100%;
+  display: flex;
+  align-items: center;
+}
+.rightwer_w11{
+    width: 50%;
+    height: 100%;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+}
+.main1{
+    width: 100%;
+    height: 150vh;
+
+   
+}
+.headmain{
+width: 100%;
+height: 40%;
+display: flex;
+align-items: center;
+justify-content: center;
+animation-name: rightbig;
+                animation-duration: 2s;
+                animation-iteration-count: 1;
+}
+.Kakashi11a{
+    width: 236px;
+height: 279px;
+}
+.nicmain{
+    width: 100%;
+height: 60%;
+padding-top: 20px;
+padding-left: 90px;
+animation-name: leftbig;
+                animation-duration: 3s;
+                animation-iteration-count: 1;
+}
+
+.block_bqt1{
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+    h6{
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 96px;
+
+color: #000000;
+    }
+    .sociablewofphoneb{
+        width: 200px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .sociablea{
+                width: 25px;
+                height: 25px;
+                margin-bottom: 20px;
+                animation-name: sociable;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                margin-left: 20px;
+                position: relative;
+                right: 20px;
+
+            }
+         
+.textbig_w11{
+    font-family: 'Rasa';
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 39px;
+color: #000000;
+margin-top: 20px;
+}
+.dev_w11{
+    width: 110px;
+height: 90px;
+}
+.btn{
+    width: 90px;
+    height: 40px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 36px;
+color: #ffffff;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.Btn_w1aa{
+    width: 190px;
+    height: 60px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 29px;
+color: #6246EA;
+    border: 1px solid #6246EA;
+    margin-top: 25px;
+background-color: transparent;
+cursor: pointer;
+} 
+.Btn_w1aa:hover{
+    animation: btnm 1s ease-in-out;
+}
+.dropdown-item{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 36px;
+color: #000000;
+display: inline-block;
+position: relative;
+margin-block: 2px;
+}
+
+.dropdown-item::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #b3b2b2;
+    border-radius: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform:  scaleX(0);
+    transform-origin: left;
+    transition: transform .25s ease;
+}
+.dropdown-item:hover::after{
+    transform: scaleX(1);
+
+}
+@media screen and (max-width:6000px){
+  .wrapphone{
+      display: none;
+  }
+
+  
+  }
+@media screen and (max-width:600px){
+  
+.left_w{
+    display: none;
+
+}
+.right_w{
+    display: none;
+}
+.main{
+    width: 100%;
+}
+.wer_head{
+    padding-left: 20px;
+}
+.rightwer_w{
+    padding-right: 20px;
+}
+.wrapphone{
+    display: flex;
+    flex-direction: column;
+}
+.wrap{
+    display: none;
+}
+}
+
+
+      ::-webkit-scrollbar {
+            width: 12px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f5f5f5;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #4e00c2;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #000000;
+        }
+
+        @keyframes move{
+0%{
+    position: relative;
+    bottom: 0%;
+}
+50%{
+    position: relative;
+    bottom: 40%;
+}
+100%{
+    position: relative;
+    bottom: 0%;
+}
+        }
+        @keyframes move1{
+0%{
+    position: relative;
+    top: 0%;
+}
+50%{
+    position: relative;
+    top: 40%;
+}
+100%{
+    position: relative;
+    top: 0%;
+}
+        }
+        @keyframes sociable{
+100%{
+    filter: hue-rotate(360deg);
+}
+} 
+     @keyframes  btnm{
+0%{
+    box-shadow: 0 0 25px #5ddcff;
+    box-shadow: 0 0 25px #4e00c2;
+}
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Poppins:wght@400;500;600;700&family=Rasa:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none;
+  color: #000000; }
+
+.wrap {
+  width: 100%;
+  height: 100vh;
+  display: flex; }
+  .wrap main {
+    width: 90%;
+    height: 100%; }
+    .wrap main header {
+      width: 100%;
+      height: 10vh;
+      animation-name: header;
+      animation-duration: 3s;
+      animation-iteration-count: 1; }
+      .wrap main header .wer_head {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        display: flex;
+        padding-left: 50px; }
+        .wrap main header .wer_head .leftwerh_w {
+          width: 50%;
+          height: 100%;
+          display: flex;
+          align-items: center; }
+          .wrap main header .wer_head .leftwerh_w .dev_w {
+            width: 100px;
+            height: 85px; }
+        .wrap main header .wer_head .rightwer_w {
+          width: 50%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          padding-right: 50px; }
+          .wrap main header .wer_head .rightwer_w .textheader1 {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 36px;
+            color: #000000;
+            display: inline-block;
+            position: relative;
+            margin-block: 2px; }
+          .wrap main header .wer_head .rightwer_w .textheader1::after {
+            content: '';
+            width: 100%;
+            height: 2px;
+            background-color: #000000;
+            border-radius: 4px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform .25s ease; }
+          .wrap main header .wer_head .rightwer_w .textheader1:hover::after {
+            transform: scaleX(1); }
+          .wrap main header .wer_head .rightwer_w .textheader {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 36px;
+            color: #000000;
+            margin-right: 41px;
+            display: inline-block;
+            position: relative;
+            margin-block: 2px; }
+          .wrap main header .wer_head .rightwer_w .textheader::after {
+            content: '';
+            width: 100%;
+            height: 2px;
+            background-color: #000000;
+            border-radius: 4px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform .25s ease; }
+          .wrap main header .wer_head .rightwer_w .textheader:hover::after {
+            transform: scaleX(1); }
+    .wrap main .big_w {
+      width: 100%;
+      height: 85vh;
+      padding-left: 50px;
+      padding-right: 50px; }
+      .wrap main .big_w .right_big {
+        width: 50%;
+        height: 100%;
+        padding-right: 20px;
+        display: flex;
+        align-items: center;
+        padding-left: 80px;
+        animation-name: rightbig;
+        animation-duration: 2s;
+        animation-iteration-count: 1; }
+        .wrap main .big_w .right_big .Kakashi {
+          width: 300px;
+          height: 360px; }
+      .wrap main .big_w .left_bigw {
+        width: 50%;
+        height: 100%;
+        padding-top: 60px;
+        animation-name: leftbig;
+        animation-duration: 3s;
+        animation-iteration-count: 1; }
+        .wrap main .big_w .left_bigw .Btn_w {
+          width: 200px;
+          height: 65px;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 300;
+          font-size: 20px;
+          line-height: 29px;
+          color: #6246EA;
+          border: 1px solid #6246EA;
+          margin-top: 40px;
+          background-color: transparent;
+          cursor: pointer; }
+        .wrap main .big_w .left_bigw .Btn_w:hover {
+          animation: btnm 1s ease-in-out; }
+        .wrap main .big_w .left_bigw .textbig_w {
+          font-family: 'Rasa';
+          font-style: normal;
+          font-weight: 300;
+          font-size: 26px;
+          line-height: 39px;
+          color: #000000;
+          margin-top: 20px; }
+        .wrap main .big_w .left_bigw h3 {
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 58px;
+          line-height: 96px;
+          color: #000000; }
+        .wrap main .big_w .left_bigw .block_bqt {
+          width: 100%;
+          height: 60px;
+          display: flex; }
+          .wrap main .big_w .left_bigw .block_bqt h1 {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 58px;
+            line-height: 96px;
+            color: #000000; }
+          .wrap main .big_w .left_bigw .block_bqt h2 {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 58px;
+            line-height: 96px;
+            color: #6246EA;
+            margin-left: 7px; }
+  .wrap .left_w {
+    width: 5%;
+    height: 100vh;
+    animation-name: left;
+    animation-duration: 4s;
+    animation-iteration-count: 1; }
+    .wrap .left_w .head_wl {
+      width: 100%;
+      height: 50%;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center; }
+      .wrap .left_w .head_wl .block_line {
+        width: 0px;
+        height: 100px;
+        border: 2px solid #6246EA;
+        animation-name: move;
+        animation-duration: 3s;
+        animation-iteration-count: infinite; }
+    .wrap .left_w .nic_wl {
+      width: 100%;
+      height: 50%;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding-top: 60px; }
+      .wrap .left_w .nic_wl .frondtext {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        color: #000000;
+        transform: rotate(-90deg);
+        cursor: pointer; }
+  .wrap .right_w {
+    width: 5%;
+    height: 100vh;
+    animation-name: left;
+    animation-duration: 4s;
+    animation-iteration-count: 1; }
+    .wrap .right_w .head_wr {
+      width: 100%;
+      height: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      cursor: pointer; }
+      .wrap .right_w .head_wr .sociable {
+        width: 25px;
+        height: 25px;
+        margin-bottom: 20px;
+        animation-name: sociable;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate; }
+    .wrap .right_w .nic_wr {
+      width: 100%;
+      height: 50%;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center; }
+      .wrap .right_w .nic_wr .block_line1 {
+        width: 0px;
+        height: 100px;
+        border: 2px solid #6246EA;
+        animation-name: move1;
+        animation-duration: 3s;
+        animation-iteration-count: infinite; }
+
+@keyframes header {
+  0% {
+    position: relative;
+    bottom: 100px; }
+  100% {
+    position: relative;
+    bottom: 0px; } }
+@keyframes left {
+  0% {
+    position: relative;
+    bottom: 1000px; }
+  100% {
+    position: relative;
+    bottom: 0px; } }
+@keyframes leftbig {
+  0% {
+    position: relative;
+    right: 300px; }
+  100% {
+    position: relative;
+    right: 0px; } }
+@keyframes rightbig {
+  0% {
+    position: relative;
+    bottom: 3000px; }
+  100% {
+    position: relative;
+    bottom: 0px; } }
+
+.biggerswe{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: lalabtn;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+}
+@keyframes lalabtn{
+0%{
+  position: relative;
+  bottom: 450px;
+
+}
+100%{
+  position: relative;
+  bottom: 0px;
+
+}
+}
+@keyframes laabtn{
+0%{
+  position: relative;
+  right: 850px;
+
+}
+100%{
+  position: relative;
+  right: 0px;
+
+}
+}
+.Btnmupr{
+    width: 180px;
+height: 68px;
+background: linear-gradient(98.75deg, #d5d3e2 19.18%, #f8f4f3 74.4%);
+border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #4d4c4c;
+border: none;
+cursor: pointer;
+margin: 50px
+}
+.Btnmupr:hover{
+    color: #4e00c2;
+    box-shadow: 0px 2px 40px #6246EA;
+    
+}
+
+.progres_w{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    animation-name: progres_w;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+    
+}
+.card_project{
+    width: 885px;
+height: 394px;
+
+}
+
+.wer_progres{
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nivprogres{
+  width: 100%;
+  height: 85%;
+  display: flex;
+  justify-content: center;
+}
+.twxtprojectq{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+color: #000000;
+}
+.btn_project{
+  width: 119px;
+height: 35.87px;
+border: 1px solid #6246EA;
+background-color: transparent;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+color: #6246EA;
+
+cursor: pointer;
+
+}
+.tetxprogresqc{
+filter: drop-shadow(0px 4px 20px rgba(205, 205, 205, 0.51));
+}
+.btn_project:hover{
+    animation: btnm 1s ease-in-out;
+}
+.textprohecrtext{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 54px;
+color: rgba(0, 0, 0, 0.5);
+margin-top: 90px;
+}
+
+.card_project1{
+  width: 885px;
+height: 394px;
+margin-top: 90px;
+}
+.tetxprogresqc1{
+  filter: drop-shadow(0px 4px 20px rgba(205, 205, 205, 0.51));
+
+}
+.card_project2{
+  width: 885px;
+height: 494px;
+margin-top: 180px;
+}
+.lineproject{
+  margin-top: 40px;
+ animation-name: lineproject;
+        animation-duration: 0.5s;
+        animation-iteration-count: infinite;
+
+}
+
+@keyframes lineproject{
+0%{
+  transform: rotate(0deg);
+}
+25%{
+  transform: rotate(90deg);
+}
+50%{
+  transform: rotate(180deg);
+}
+75%{
+  transform: rotate(270deg);
+}
+100%{
+  transform: rotate(360deg);
+}
+}
+.card_project4{
+  width: 885px;
+height: 494px;
+margin-top: 40px;
+}
+
+@keyframes progres_w{
+
+0%{
+  position: relative;
+  right: 800px;
+}
+100%{
+  position: relative;
+  right: 0px;
+}
+}
+
+.textcarusrl{
+  color: #000000;
+}
+h5{
+  color: #000000;
+  position: relative;
+  bottom: 20px;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 36px;
+color: #000000;
+}
+
+.d-block{
+width: 700px;
+height: 350px;
+}
+
+
+
+@media screen and (max-width:6000px){
+  .wrapphone{
+      display: none;
+  }
+
+  
+  }
+@media screen and (max-width:600px){
+  
+.left_w{
+    display: none;
+
+}
+.right_w{
+    display: none;
+}
+.main{
+    width: 100%;
+}
+.wer_head{
+    padding-left: 20px;
+}
+.rightwer_w{
+    padding-right: 20px;
+}
+.wrapphone{
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap{
+  display: none;
+}
+
+
+}
+
+
+
+
+
+.headbtnmai{
+  width: 100%;
+  height: 30vh;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: lalabtn;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+}
+
+.Btnmupr1{
+    width: 110px;
+height: 48px;
+background: rgb(233, 63, 63) ;
+border-radius: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+color: #ffffff;
+border: none;
+cursor: pointer;
+margin: 20px ;
+animation-name: la ;
+animation-duration: 2.5s;
+animation-iteration-count: 1;
+
+}
+.Btnmupr1:hover{
+    color: #ffffff;
+    box-shadow: 0px 2px 40px rgb(233, 63, 63) ;
+    
+}
+.phoneproj_a{
+  width: 388px;
+height: 257px;
+margin-top: 80px;
+
+}
+
+.head_projectphonea{
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainhead_projectphona{
+  width: 100%;
+  height: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nic_phoneproj_aqa{
+  width: 100%;
+  height: 20%;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+
+.hgjfdkswyq{
+  width: 100%;
+  height: 585vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  bottom: 40px;
+  animation-name: laabtn;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+}
+
+.textprojecr_card1aza{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+color: rgba(0, 0, 0, 0.5);
+
+}
+.blockcard_figma1mvd{
+    width: 100px;
+height: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-right: 10px;
+
+}
+.blockcard_figma1zxc{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 15px;
+color: #000000;
+position: relative;
+top: 7px;
+}
+.Btn_cardzmnb{
+    width: 80px;
+height: 30px;
+border: 1px solid #07057D;
+background-color: transparent;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 21px;
+color: #6246EA;
+cursor: pointer;
+margin-left: 10px;
+}
+.Btn_cardzmnb:hover{
+    animation: btnm 1s ease-in-out;
+}
+
+
+
+
+.boximgptrocard{
+  width: 388px;
+height: 187.1px;
+background-image: url(../img/cardphoto.png);
+background-size: cover;
+display: flex;
+align-items: flex-end;
+}
+
+.boxlinecproject{
+  width: 300px;
+  height: 75px;
+  background-color: rgba(235, 76, 55, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+
+.textwprotext_phone{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 29px;
+color: #ffffff;
+text-align: center;
+}
+.phoneproj_aaz{
+  width: 388px;
+height: 257px;
+margin-top: 80px;
+}
+
+
+.Btn_cardzmnb1{
+    width: 80px;
+height: 30px;
+border: 1px solid #07057D;
+background-color: transparent;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 21px;
+color: #6246EA;
+cursor: pointer;
+margin-right: 10px;
+}
+.Btn_cardzmnb1:hover{
+    animation: btnm 1s ease-in-out;
+}
+.blockcard_figma1mvd1{
+  width: 100px;
+height: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 10px;
+}
+
+
+.boximgptrocard1{
+  width: 388px;
+height: 187.1px;
+background-image: url(../img/Neetphotos\ 1.png);
+background-size: cover;
+display: flex;
+align-items: flex-end;
+border: 1px solid #ebebeb;
+}
+
+.boximgptrocard2{
+  width: 388px;
+height: 187.1px;
+background-image: url(../img/cootlesphoto.png);
+background-size: cover;
+display: flex;
+align-items: flex-end;
+border: 1px solid #ebebeb;
+}
+
+.boximgptrocard4{
+  width: 388px;
+height: 187.1px;
+background-image: url(../img/pumaphoto.png);
+background-size: cover;
+display: flex;
+align-items: flex-end;
+border: 1px solid #ebebeb;
+
+}
+.boxlinecprojectx{
+  width: 300px;
+  height: 75px;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.boximgptrocard5{
+  width: 388px;
+height: 187.1px;
+background-image: url(../img/card_lovely.png);
+background-size: cover;
+display: flex;
+align-items: flex-end;
+border: 1px solid #ebebeb;
+
+}
+.boximgptrocard6{
+  width: 388px;
+height: 187.1px;
+background-image: url(../img/happypet.png);
+background-size: cover;
+display: flex;
+align-items: flex-end;
+border: 1px solid #ebebeb;
+
+}
+.boximgptrocard7{
+  width: 388px;
+height: 187.1px;
+background-image: url(../img/pelio.png);
+background-size: cover;
+display: flex;
+align-items: flex-end;
+
+}
+.boximgptrocard8{
+  width: 388px;
+height: 187.1px;
+background-image: url(../img/vovkphoto.png);
+background-size: cover;
+display: flex;
+align-items: flex-end;
+
+}
+.main1{
+width: 100%;
+height: 250vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+animation-name: leftbig;
+                animation-duration: 3s;
+                animation-iteration-count: 1;
+
+
+
+}
+.wrapphone{
+  height: 250vh;
+  
+
+
+}
+.boximgptrocard10{
+  width: 388px;
+height: 187.1px;
+background-image: url(../img/progresphoto.png);
+background-size: cover;
+display: flex;
+align-items: flex-end;
+border: 1px solid #ebebeb;
+
+}
+.boximgptrocard11{
+  width: 388px;
+height: 187.1px;
+background-image: url(../img/pumaphoto.png);
+background-size: cover;
+display: flex;
+align-items: flex-end ;
+border: 1px solid #ebebeb;
+
+}
+
+
+.boximgptrocard12{
+  width: 388px;
+height: 187.1px;
+background-image: url(../img/cardproject.png);
+background-size: cover;
+display: flex;
+align-items: flex-end ;
+border: 1px solid #ebebeb;
+
+}
+
+.boximgptrocard13{
+  width: 388px;
+height: 187.1px;
+background-image: url(../img/cardcardproject.png);
+background-size: cover;
+display: flex;
+align-items: flex-end ;
+border: 1px solid #ebebeb;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="wrap">
+<div class="left_w">
+<div class="head_wl">
+<div class="block_line"></div>
+</div>
+<div class="nic_wl">
+<p class="frondtext">Frond_end</p>
+</div>
+
+</div>
+<main>
+<header>
+<div class="wer_head">
+<div class="leftwerh_w">
+<img class="dev_w" src="../img/dev.png" alt="dev">
+</div>
+<div class="rightwer_w">
+<a href="../index.html">
+    <p class="textheader ">Home</p>
+</a>
+<a href="../multi/myproject.html">
+    <p class="textheader ">My project</p>
+</a>
+<a href="../multi/skills.html">
+    <p class="textheader ">Skills</p>
+</a>
+
+<a href="../multi/progres.html">
+    <p class="textheader1 ">Progres</p>
+</a>
+
+
+
+
+</div>
+
+</div>
+
+
+</header>
+
+<div class="big_w">
+<div class="progres_w">
+
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="../img/progresphoto.png" class="d-block w-100" alt="la">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>My first project</h5>
+          <a target="_blank" href="../firstleson/index.html">
+            <button class="btn_project">Watch</button>
+            </a>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="../img/pumaphoto.png" class="d-block w-100" alt="la">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>My last project</h5>
+          <a target="_blank" href="../puma/index.html">
+            <button class="btn_project">Watch</button>
+            </a>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="../img/cardproject.png" class="d-block w-100" alt="la">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>My first card</h5>
+          <a target="_blank" href="../cardaa/card.html">
+            <button class="btn_project">Watch</button>
+            </a>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="../img/cardcardproject.png" class="d-block w-100" alt="la">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>My last card</h5>
+          <a target="_blank" href="../dash/Dash.html">
+            <button class="btn_project">Watch</button>
+            </a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+</main>
+
+
+<div class="right_w">
+    <div class="head_wr">
+        <a target="_blank" href="https://github.com/dizer2">
+    <img class="sociable" src="../img/github.png" alt="github">
+        </a>
+        <a target="_blank" href="https://instagram.com/_.yurchik__?igshid=YmMyMTA2M2Y=">
+    <img  class="sociable" src="../img/insta.png" alt="instagram">
+        </a>
+        <a target="_blank" href="https://t.me/Yurlok">
+    <img  class="sociable" src="../img/Telegram.png" alt="Telegram">
+        </a>
+        </div>
+        <div class="nic_wr">
+            <div class="block_line1"></div>
+        </div>
+</div>
+
+
+
+
+    </div>
+
+
+
+
+    <div class="wrapphone">
+      <div class="headerr1">
+
+     
+        
+          <div class="leftwerh_w11">
+          <img class="dev_w11" src="../img/dev.png" alt="dev">
+          </div>
+          <div class="rightwer_w11">
+         
+              <div class="dropdown">
+                  <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                    Menu
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                      <a href="../index.html">
+                    <li><button class="dropdown-item" type="button">Home</button></li>
+                      </a>
+                      <a href="../multi/myproject.html">
+                    <li><button class="dropdown-item" type="button">My project</button></li>
+                      </a>
+                      <a href="../multi/skills.html">
+                    <li><button class="dropdown-item" type="button">Skills</button></li>
+                      </a>
+                      <a href="../multi/progres.html">
+                    <li><button class="dropdown-item" type="button">Progres</button></li>
+                      </a>
+                  </ul>
+                </div>
+          </div>
+          
+          
+      </div>
+          <div class="main1">
+
+           
+            
+            
+             
+            <div class="phoneproj_a">
+              <div class="head_projectphonea">
+               <p class="textprojecr_card1aza">My first project</p>
+              </div>
+             <div class="mainhead_projectphona">
+             <div class="boximgptrocard10">
+             <div class="boxlinecproject">
+               <p class="textwprotext_phone">Hr, teg: img, p were used</p>
+             </div>
+             
+             </div>
+             </div>
+             
+             <div class="nic_phoneproj_aqa">
+             
+                 <a target="_blank" href="../firstleson/index.html">
+                   <button class="Btn_cardzmnb">Watch</button>
+                   </a>
+             
+             </div>
+               </div>
+             
+             
+             
+               <div class="phoneproj_aaz">
+                 <div class="head_projectphonea">
+                  <p class="textprojecr_card1aza">My last project</p>
+                 </div>
+                <div class="mainhead_projectphona">
+                <div class="boximgptrocard11">
+                <div class="boxlinecproject">
+                  <p class="textwprotext_phone">Layout on the phone, animation, <br> Sass were used</p>
+                </div>
+                
+                </div>
+                </div>
+                
+                <div class="nic_phoneproj_aqa">
+                 <a target="_blank" href="../puma/index.html">
+                   <button class="Btn_cardzmnb1">Watch</button>
+                   </a>
+                 
+                  
+                
+                </div>
+                  </div>
+            
+            
+            
+            
+            
+
+
+                  <div class="phoneproj_a">
+                    <div class="head_projectphonea">
+                     <p class="textprojecr_card1aza">My first card</p>
+                    </div>
+                   <div class="mainhead_projectphona">
+                   <div class="boximgptrocard12">
+                   <div class="boxlinecproject">
+                     <p class="textwprotext_phone">select, flex-box used used</p>
+                   </div>
+                   
+                   </div>
+                   </div>
+                   
+                   <div class="nic_phoneproj_aqa">
+                   
+                       <a target="_blank" href="../cardaa/card.html">
+                         <button class="Btn_cardzmnb">Watch</button>
+                         </a>
+                   
+                   </div>
+                     </div>
+                   
+                   
+                   
+                     <div class="phoneproj_aaz">
+                       <div class="head_projectphonea">
+                        <p class="textprojecr_card1aza">My last card</p>
+                       </div>
+                      <div class="mainhead_projectphona">
+                      <div class="boximgptrocard13">
+                      <div class="boxlinecproject">
+                        <p class="textwprotext_phone">Hover effects, shadows, multi-site
+                          <br> and similar layouts were used</p>
+                      </div>
+                      
+                      </div>
+                      </div>
+                      
+                      <div class="nic_phoneproj_aqa">
+                       <a target="_blank" href="../dash/Dash.html">
+                         <button class="Btn_cardzmnb1">Watch</button>
+                         </a>
+                       
+                        
+                      
+                      </div>
+                        </div>
+                  
+                  
+
+            
+            
+            </div>
+          </div>
+
+
+  </div>
+
+
+</body>
+</html>

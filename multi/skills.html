@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="icon" href="../img/avatar.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+    <style>
+        .wrapphone{
+    width:100%;
+    height: 150vh;
+
+}
+.headerr1{
+    width: 100%;
+    height: 15vh;
+
+    display: flex;
+    padding: 0 20px;
+    animation-name: header;
+            animation-duration: 3s;
+            animation-iteration-count: 1;
+}
+.leftwerh_w11{
+    width: 50%;
+    height: 100%;
+  display: flex;
+  align-items: center;
+}
+.rightwer_w11{
+    width: 50%;
+    height: 100%;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+}
+.main1{
+    width: 100%;
+    height: 150vh;
+
+   
+}
+.headmain{
+width: 100%;
+height: 40%;
+display: flex;
+align-items: center;
+justify-content: center;
+animation-name: rightbig;
+                animation-duration: 2s;
+                animation-iteration-count: 1;
+}
+.Kakashi11a{
+    width: 236px;
+height: 279px;
+}
+.nicmain{
+    width: 100%;
+height: 60%;
+padding-top: 20px;
+padding-left: 90px;
+animation-name: leftbig;
+                animation-duration: 3s;
+                animation-iteration-count: 1;
+}
+
+.block_bqt1{
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+    h6{
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 96px;
+
+color: #000000;
+    }
+    .sociablewofphoneb{
+        width: 200px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+    }
+    h5{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 96px;
+        color:#6246EA;
+        margin-left: 7px;
+    }
+    .sociablea{
+                width: 25px;
+                height: 25px;
+                margin-bottom: 20px;
+                animation-name: sociable;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                margin-left: 20px;
+                position: relative;
+                right: 20px;
+
+            }
+         
+.textbig_w11{
+    font-family: 'Rasa';
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 39px;
+color: #000000;
+margin-top: 20px;
+}
+.dev_w11{
+    width: 110px;
+height: 90px;
+}
+.btn{
+    width: 90px;
+    height: 40px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 36px;
+color: #ffffff;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.Btn_w1aa{
+    width: 190px;
+    height: 60px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 29px;
+color: #6246EA;
+    border: 1px solid #6246EA;
+    margin-top: 25px;
+background-color: transparent;
+cursor: pointer;
+} 
+.Btn_w1aa:hover{
+    animation: btnm 1s ease-in-out;
+}
+         ::-webkit-scrollbar {
+            width: 12px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f5f5f5;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #4e00c2;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #000000;
+        }
+        @keyframes move{
+0%{
+    position: relative;
+    bottom: 0%;
+}
+50%{
+    position: relative;
+    bottom: 40%;
+}
+100%{
+    position: relative;
+    bottom: 0%;
+}
+        }
+        @keyframes move1{
+0%{
+    position: relative;
+    top: 0%;
+}
+50%{
+    position: relative;
+    top: 40%;
+}
+100%{
+    position: relative;
+    top: 0%;
+}
+        }
+        @keyframes sociable{
+100%{
+    filter: hue-rotate(360deg);
+}
+} 
+     @keyframes  btnm{
+0%{
+    box-shadow: 0 0 25px #5ddcff;
+    box-shadow: 0 0 25px #4e00c2;
+}
+}
+     
+
+.left_biger{
+    width: 50%;
+    height: 100%;
+    
+    padding-top: 60px;
+    animation-name: aboutleft;
+                animation-duration: 3s;
+                animation-iteration-count: 1;
+}
+@keyframes  aboutleft{
+    0%{
+        position: relative;
+        right: 300px;
+    }
+
+    100%{
+        position: relative;
+        right: 0px;
+    }
+
+
+
+}
+
+@keyframes aboutright {
+    0%{
+position: relative;
+ bottom: 3000px;
+}                     
+100%{
+ position: relative;
+ bottom: 0px;
+ }
+
+
+
+}
+.right_bigger{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: aboutright;
+                animation-duration: 2s;
+                animation-iteration-count: 1;
+}
+
+.block_photo{
+    width: 400px;
+height: 400px;
+display: flex;
+
+}
+
+.left_photo{
+    width: 90%;
+    height: 90%;
+ 
+    z-index: 5;
+}
+.right_photo{
+    width: 10%;
+    height: 100%;
+}
+
+.yuraphoto{
+    width: 370px;
+    height: 370px;
+    z-index: 4;
+    filter: grayscale(80%);
+    cursor: pointer;
+    transition: box-shadow .5s, transform .25s;
+}
+.yuraphoto:hover{
+    filter: grayscale(0%);
+    animation-name: yura;
+                animation-duration: 0.5s;
+                animation-iteration-count: 1;
+                box-shadow: 5px 3px #ebebeb, 10px 6px 
+                #ebebeb, 15px 9px #ebebeb ;
+                transform: rotate(1-deg) skew(-1deg, -1deg);
+                transition: box-shadow .75s, transform .375s;
+                
+
+}
+@keyframes yura{
+    0%{
+    filter: grayscale(80%);
+
+    }
+    100%{
+    filter: grayscale(0%);
+
+    }
+}
+.linephotoyura{
+    width: 335px;
+height: 335px;
+background-color: transparent;
+border: 2px solid rgba(180, 180, 180, 1);
+border-radius: 15px;
+position: relative;
+right: 290px;
+top: 60px;
+z-index: 2;
+}
+.block_about{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.textabout{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 44px;
+line-height: 72px;
+color: #000000;
+}
+.textabout1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 44px;
+line-height: 72px;
+color: #4e00c2;
+margin-left: 7px;
+}
+.line_about{
+    width: 211px;
+height: 0px;
+border: 1px solid #000000;
+margin-left: 15px;
+}
+.textabotme1{
+    font-family: 'Rasa';
+font-style: normal;
+font-weight: 300;
+font-size: 28px;
+line-height: 37px;
+color: #000000;
+margin-top: 45px;
+}
+.textabotme{
+    font-family: 'Rasa';
+font-style: normal;
+font-weight: 300;
+font-size: 28px;
+line-height: 37px;
+color: #000000;
+}
+.textabotme2{
+    font-family: 'Rasa';
+font-style: normal;
+font-weight: 300;
+font-size: 28px;
+line-height: 37px;
+color: #000000;
+margin-left: 4px;
+}
+.Ukrain_about{
+    font-family: 'Rasa';
+font-style: normal;
+font-weight: 300;
+font-size: 28px;
+line-height: 37px;
+    color: #4e00c2;
+    margin-left: 4px;
+}
+.blockyk{
+    width: 100%;
+    height: 35px;
+    display: flex;
+}
+
+.skills{
+    width: 100%;
+    height: 120vh;
+
+}
+.hedd_bigw{
+    width: 100%;
+    height: 55%;
+
+    
+    display: flex;
+ justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+.nic_headbig{
+    width: 100%;
+    height: 45%;
+    display: flex;
+ justify-content: center;
+ align-items: flex-start;
+
+}
+.dropdown-item{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 36px;
+color: #000000;
+display: inline-block;
+position: relative;
+margin-block: 2px;
+}
+
+.dropdown-item::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #b3b2b2;
+    border-radius: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform:  scaleX(0);
+    transform-origin: left;
+    transition: transform .25s ease;
+}
+.dropdown-item:hover::after{
+    transform: scaleX(1);
+
+}
+@media screen and (max-width:6000px){
+  .wrapphone{
+      display: none;
+  }
+
+  
+  }
+@media screen and (max-width:600px){
+  
+.left_w{
+    display: none;
+
+}
+.right_w{
+    display: none;
+}
+.main{
+    width: 100%;
+}
+.wer_head{
+    padding-left: 20px;
+}
+.rightwer_w{
+    padding-right: 20px;
+}
+.wrapphone{
+    display: flex;
+    flex-direction: column;
+}
+.wrap{
+    display: none;
+}
+.skills{
+    height: 250vh;
+}
+.hedd_bigw{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nic_headbig{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #eae746;
+}
+
+.cardskills1{
+    width: 1000px;
+height: 1000px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+justify-content: center;
+padding-left: 0px;
+padding-right: 0px;
+background-color: rgb(129, 8, 8);
+
+}
+
+
+} 
+
+
+
+
+
+.cardskills{
+    width: 100%;
+height: 70%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+position: relative;
+animation-name: cardskills1;
+animation-duration: 3s; 
+animation-iteration-count: 1;
+}
+.card_skillsq{
+    width: 331px;
+height: 243px;
+background: #FFFFFF;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.head_cs{
+    width: 100%;
+    height: 5%;
+    
+}
+.lineskills{
+    width: 100%;
+    height: 100%;
+    
+}
+.colrlines{
+    background-color: rgba(98, 70, 234, 1);
+}
+.nic_cs{
+    width: 100%;
+    height: 95%;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.textskills{
+    font-family: 'Rasa';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.2em;
+
+}
+.textcolorskills{
+    color: #6246EA;
+
+}
+.skilltext2{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
+color: #000000;
+margin-top: 7px;
+}
+.textskills3{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+color: #919191;
+margin-top: 28px;
+}
+.colrlines1{
+    background-color: rgba(231, 234, 70, 1);
+}
+.textcolorskills1{
+    color: #E7EA46;
+}
+
+.textcolorskills2{
+    color: rgba(234, 70, 70, 1);
+}
+.colrlines2{
+    background-color:  rgba(234, 70, 70, 1) ;
+}
+.cardskills1{
+    width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+padding-left: 190px;
+padding-right: 190px;
+animation-name: cardskills;
+animation-duration: 3s; 
+animation-iteration-count: 1;
+
+}
+@keyframes cardskills{
+    0%{
+        position: relative;
+        right: 1000px;
+
+    }
+    100%{
+        position: relative;
+        right: 0px;
+    }
+}
+@keyframes cardskills1{
+    0%{
+        position: relative;
+        right: 700px;
+
+    }
+    100%{
+        position: relative;
+        right: 0px;
+    }
+}
+
+
+.colrlines4{
+    background: #5DEA46;
+}
+.textcolorskills4{
+    color: #5DEA46;
+}
+.colrlines5{
+    background: #05737A;
+}
+.textcolorskills5{
+    color: #05737A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="wrap">
+<div class="left_w">
+<div class="head_wl">
+<div class="block_line"></div>
+</div>
+<div class="nic_wl">
+<p class="frondtext">Frond_end</p>
+</div>
+
+</div>
+<main>
+<header>
+<div class="wer_head">
+<div class="leftwerh_w">
+<img class="dev_w" src="../img/dev.png" alt="dev">
+</div>
+<div class="rightwer_w">
+<a href="../index.html">
+    <p class="textheader ">Home</p>
+</a>
+<a href="../multi/myproject.html">
+    <p class="textheader ">My project</p>
+</a>
+<a href="../multi/skills.html">
+    <p class="textheader ">Skills</p>
+</a>
+
+<a href="../multi/progres.html">
+    <p class="textheader1 ">Progres</p>
+</a>
+
+
+
+
+</div>
+
+</div>
+
+
+</header>
+
+<div class="big_w">
+<div class="skills">
+<div class="hedd_bigw">
+<div class="cardskills">
+<div class="card_skillsq">
+<div class="head_cs">
+    <div class="lineskills colrlines"></div>
+</div>
+<div class="nic_cs">
+<p class="textskills textcolorskills">WEB DEVELOPMENT</p>
+<p class="skilltext2">Fundamentals of <br>
+    HTML5</p>
+    <p class="textskills3"> bootstrap, multi site, <br>
+        layout on the phone were used </p>
+</div>
+</div>
+</div>
+
+<div class="cardskills">
+    <div class="card_skillsq">
+    <div class="head_cs">
+        <div class="lineskills colrlines1"></div>
+    </div>
+    <div class="nic_cs">
+    <p class="textskills textcolorskills1">WEB DEVELOPMENT</p>
+    <p class="skilltext2">Fundamentals of <br>
+        CSS3</p>
+        <p class="textskills3">Hover effect, animation, shadows, <br> Flex-box, @keyframes, @media
+
+        </p>
+    </div>
+    </div>
+    </div>
+
+    <div class="cardskills">
+        <div class="card_skillsq">
+        <div class="head_cs">
+            <div class="lineskills colrlines2"></div>
+        </div>
+        <div class="nic_cs">
+        <p class="textskills textcolorskills2">DESIGN</p>
+        <p class="skilltext2">Fundamentals of <br>
+            CSS3</p>
+            <p class="textskills3">UL and UX. Very bigger and cool <br> design site</p>
+        </div>
+        </div>
+        </div>
+    
+    
+    
+
+
+
+
+
+    
+</div>
+<div class="nic_headbig">
+
+    <div class="cardskills1">
+        <div class="cardskills">
+            <div class="card_skillsq">
+            <div class="head_cs">
+                <div class="lineskills colrlines4"></div>
+            </div>
+            <div class="nic_cs">
+            <p class="textskills textcolorskills4">WORLD</p>
+            <p class="skilltext2">Fundamentals of <br>
+                Language</p>
+                <p class="textskills3">English, Czech, Ukrainian
+                </p>
+            </div>
+            </div>
+            </div>
+
+
+            <div class="cardskills">
+                <div class="card_skillsq">
+                <div class="head_cs">
+                    <div class="lineskills colrlines5"></div>
+                </div>
+                <div class="nic_cs">
+                <p class="textskills textcolorskills5"> SASS</p>
+                <p class="skilltext2">Fundamentals of <br>
+                    SCSS3</p>
+                    <p class="textskills3">SCSS basis, increased coding <br> rate, also  mastered the Koala program
+            
+                    </p>
+                </div>
+                </div>
+                </div>
+
+
+    </div>
+            
+
+</div>
+
+
+
+
+</div>
+</div>
+
+
+</main>
+
+
+<div class="right_w">
+    <div class="head_wr">
+        <a target="_blank" href="https://github.com/dizer2">
+    <img class="sociable" src="../img/github.png" alt="github">
+        </a>
+        <a target="_blank" href="https://instagram.com/_.yurchik__?igshid=YmMyMTA2M2Y=">
+    <img  class="sociable" src="../img/insta.png" alt="instagram">
+        </a>
+        <a target="_blank" href="https://t.me/Yurlok">
+    <img  class="sociable" src="../img/Telegram.png" alt="Telegram">
+        </a>
+        </div>
+        <div class="nic_wr">
+            <div class="block_line1"></div>
+        </div>
+</div>
+
+
+
+
+    </div>
+
+
+    <div class="wrapphone">
+        <div class="headerr1">
+
+       
+          
+            <div class="leftwerh_w11">
+            <img class="dev_w11" src="../img/dev.png" alt="dev">
+            </div>
+            <div class="rightwer_w11">
+           
+                <div class="dropdown">
+                    <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                      Menu
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <a href="../index.html">
+                      <li><button class="dropdown-item" type="button">Home</button></li>
+                        </a>
+                        <a href="../multi/myproject.html">
+                      <li><button class="dropdown-item" type="button">My project</button></li>
+                        </a>
+                        <a href="../multi/skills.html">
+                      <li><button class="dropdown-item" type="button">Skills</button></li>
+                        </a>
+                        <a href="../multi/progres.html">
+                      <li><button class="dropdown-item" type="button">Progres</button></li>
+                        </a>
+                    </ul>
+                  </div>
+            </div>
+            
+            
+        </div>
+            <div class="main1">
+
+
+
+                <div class="big_w">
+                    <div class="skills">
+                    <div class="hedd_bigw">
+                    <div class="cardskills">
+                    <div class="card_skillsq">
+                    <div class="head_cs">
+                        <div class="lineskills colrlines"></div>
+                    </div>
+                    <div class="nic_cs">
+                    <p class="textskills textcolorskills">WEB DEVELOPMENT</p>
+                    <p class="skilltext2">Fundamentals of <br>
+                        HTML5</p>
+                        <p class="textskills3"> bootstrap, multi site, <br>
+                            layout on the phone were used </p>
+                    </div>
+                    </div>
+                    </div>
+                    
+                    <div class="cardskills">
+                        <div class="card_skillsq">
+                        <div class="head_cs">
+                            <div class="lineskills colrlines1"></div>
+                        </div>
+                        <div class="nic_cs">
+                        <p class="textskills textcolorskills1">WEB DEVELOPMENT</p>
+                        <p class="skilltext2">Fundamentals of <br>
+                            CSS3</p>
+                            <p class="textskills3">Hover effect, animation, shadows, <br> Flex-box, @keyframes, @media
+                    
+                            </p>
+                        </div>
+                        </div>
+                        </div>
+                    
+                        <div class="cardskills">
+                            <div class="card_skillsq">
+                            <div class="head_cs">
+                                <div class="lineskills colrlines2"></div>
+                            </div>
+                            <div class="nic_cs">
+                            <p class="textskills textcolorskills2">DESIGN</p>
+                            <p class="skilltext2">Fundamentals of <br>
+                                CSS3</p>
+                                <p class="textskills3">UL and UX. Very bigger and cool <br> design site</p>
+                            </div>
+                            </div>
+                            </div>
+                        
+                        
+                            <div class="cardskills">
+                                <div class="card_skillsq">
+                                <div class="head_cs">
+                                    <div class="lineskills colrlines4"></div>
+                                </div>
+                                <div class="nic_cs">
+                                <p class="textskills textcolorskills4">WORLD</p>
+                                <p class="skilltext2">Fundamentals of <br>
+                                    Language</p>
+                                    <p class="textskills3">English, Czech, Ukrainian
+                                    </p>
+                                </div>
+                                </div>
+                                </div>
+                    
+                    
+                                <div class="cardskills">
+                                    <div class="card_skillsq">
+                                    <div class="head_cs">
+                                        <div class="lineskills colrlines5"></div>
+                                    </div>
+                                    <div class="nic_cs">
+                                    <p class="textskills textcolorskills5"> SASS</p>
+                                    <p class="skilltext2">Fundamentals of <br>
+                                        SCSS3</p>
+                                        <p class="textskills3">SCSS basis, increased coding <br> rate, also  mastered the Koala program
+                                
+                                        </p>
+                                    </div>
+                                    </div>
+                                    </div>
+                    
+                    
+                    
+                    
+                    
+                        
+                    </div>
+                
+                    </div>
+                    </div>
+
+
+
+
+
+
+
+            </div>
+    </div>
+
+
+
+</body>
+</html>

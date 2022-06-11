@@ -1,0 +1,1756 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog</title>
+    <link rel="icon" href="https://vovk.com/image/catalog/common/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="katalog/style.css">
+    <style>
+        @media screen and (max-width:1860px){
+             .card{
+                 width: 340px;
+             }
+        }
+        @media screen and (max-width:1800px){
+            .ul1{
+                font-size: 12px;
+            }
+
+        }
+        @media screen and (max-width:1790px){
+            .main{
+                height: 1900px;
+            }
+            .cards{
+                height: 1940px;
+            }
+            .mainleft{
+                height: 1900px;
+            }
+            .wrap2{
+                height: 2250px;
+            }
+            .container2{
+                height: 2000px;
+            }
+            .s{
+                margin-top: 8px;
+                margin-left: 90px;
+            }
+            .card{
+                width: 300px;
+                height: 600px;
+            }
+            .row{
+                height: 600px;
+            }
+            .row2{
+                height: 600px;
+            }
+            .row3{
+                height: 600px;
+            }
+        }
+        @media screen and (max-width:1700px){
+            .inp1{
+                width: 600px;
+            }
+            .nav{
+                width: 47%;
+            }
+            .logo{
+                width: 25%;
+            }
+            .container{
+                width: 90%;
+            }
+            .img2{
+                height: 10px;
+                width: 10px;
+            }
+            .p1{
+                font-size: 12px;
+            }
+            .img3{
+                height: 10px;
+                width: 15px;
+            }
+            .img4{
+                height: 15px;
+                width: 15px;
+            }
+            .img5{
+                height: 10px;
+                width: 15px;
+            }
+            .img6{
+                height: 20px;
+                width: 15px;
+            }
+            .img7{
+                height: 10px;
+                width: 15px;
+            }
+            .img77{
+                height: 15px;
+                width: 20px;
+            }
+            .box3{
+                width: 15%;
+            }
+            .phone_number{
+                width: 55%;
+            }
+            .img1{
+                height: 50%;
+                width: 120px;
+            }
+        }
+        @media screen and (max-width:1600px){
+            .inp1{
+                width: 450px;
+            }
+            .p7{
+                font-size: 18px;
+            }
+            .box24{
+                font-size: 13px;
+            }
+            .text1{
+                font-size: 15px;
+            }
+            .head_li{
+                font-size: 15px;
+            }
+            .li3{
+                font-size: 13px;
+            }
+            .li33{
+                font-size: 13px;
+            }
+            .box17{
+                font-size: 13px;
+            }
+            .img13{
+                height: 20px;
+                width: 20px;
+            }
+            .img12{
+                height: 20px;
+                width: 20px;
+            }
+            .box13{
+                font-size: 14px;
+            }
+            .box12{
+                font-size: 14px;
+            }
+            .p6{
+                font-size: 13px;
+            }
+            .option1{
+                font-size: 13px;
+            }
+            .select1{
+                font-size: 13px;
+            }
+            .p5{
+                font-size: 13px;
+            }
+            .class{
+                font-size: 16px;
+            }
+            .main{
+                height: 1900px;  
+            }
+            .cards{
+                height: 1650px;
+            }
+            .mainleft{
+                height: 1900px;
+            }
+            .wrap2{
+                height: 2000px;
+            }
+            .container2{
+                height: 2000px;
+            }
+            .container2{
+                width: 90%;
+            }
+            .card{
+                width: 270px;
+                height: 500px;
+            }
+            .row{
+                height: 500px;
+            }
+            .row2{
+                height: 500px;
+            }
+            .row3{
+                height: 500px;
+            }
+            .catalog{
+                font-size: 12px;
+            }
+            .news{
+                font-size: 12px;
+            }
+            .spring{
+                font-size: 12px;
+            }
+            .big_size{
+                font-size: 12px;
+            }
+            .big_size{
+                font-size: 12px;
+            }
+            .ACCESSORIES{
+                font-size: 12px;
+            }
+            .SALE{
+                font-size: 12px;
+            }
+            .BASE{
+                font-size: 12px;
+            }
+            .SURPRISE{
+                font-size: 12px;
+            }
+            .img8{
+                height: 18px;
+                width: 18px;
+            }
+            .img9{
+                height: 18px;
+                width: 18px;
+            }
+            .img10{
+                height: 18px;
+                width: 18px;
+            }
+            .p2{
+                font-size: 12px;
+            }
+            .circkle{
+                height: 40px;
+                width: 40px;
+                font-size: 12px;
+            }
+        }
+        @media screen and (max-width:1400px){
+            .btn3{
+                font-size: 13px;
+                width: 120px;
+                height: 55px;
+            }
+            .box22{
+                margin-left: 1.5%;
+            }
+            .box23{
+                margin-right: 1.5%;
+            }
+            .inp1{
+                font-size: 13px;
+                height: 55px;
+                width: 300px;
+            }
+            .p7{
+                font-size: 15px;
+            }
+            .container_box{
+                width: 97%;
+            }
+            .nav{
+                width: 49%;
+            }
+            .logo{
+                width: 23%;
+            }
+            .boox1{
+                display: flex;
+                width: 50%;
+                align-items: center;
+            }
+            .choose_prise1{
+                margin-left: 10px;
+            }
+            .choose_prise2{
+                margin-left: 14px;
+            }
+            .input{
+                height: 100%;
+                flex-direction: column;
+                align-items: flex-start;
+                
+            }
+            
+        }
+        @media screen and (max-width:1350px){
+            .box20{
+                width: 650px;
+            }
+            .box9{
+                font-size: 12px;
+                padding: 5px;
+            }
+            .catalog{
+                width: 11%;
+                font-size: 11px;
+            }
+            .news{
+                width: 11%;
+                font-size: 11px;
+            }
+            .spring{
+                width: 19%;
+                font-size: 11px;
+                text-align: center;
+            }
+            .big_size{
+                width: 11%;
+                font-size: 11px;
+                text-align: center;
+            }
+            .ACCESSORIES{
+                font-size: 11px;
+                width: 15%;
+            }
+            .SALE{
+                font-size: 11px;
+                width: 8%;
+            }
+            .BASE{
+                font-size: 11px;
+                width: 8%;
+            }
+            .SURPRISE{
+                font-size: 11px;
+                width: 17%;
+                text-align: center;
+            }
+            .logo{
+                width: 20%;
+            }
+            .nav{
+                width: 53%;
+            }
+        }
+        @media screen and (max-width:1250px){
+            .box17{
+                font-size: 11px;
+            }
+            .s{
+                margin-left: 120px;
+            }
+            .box15{
+                padding-left: 10px;
+            }
+            .box16{
+                padding-right: 10px;
+                padding-bottom: 20px;
+            }
+            .img14{
+                height: 15px;
+                width: 15px;
+            }
+            .kryg{
+                height: 40px;
+                width: 40px;
+            }
+            .card{
+                width: 220px;
+            }
+            .filter{
+                height: 550px;
+            }
+            .img10{
+                margin-left: 30px;
+            }
+            .phone_number{
+                width: 60%;
+            }
+            .container{
+                width: 940px;
+            }
+            .container2{
+                width: 940px;
+            }
+            .logo{
+                width: 17%;
+            }
+            .img1{
+                height: 70%;
+            }
+            .header{
+                height: 50px;
+            }
+            .ul1{
+                font-size: 11px;
+            }
+            .img4{
+                width: 12px;
+                height: 12px;
+            }
+            .contacts{
+                width: 33%;
+            }
+        }
+        @media screen and (max-width:990px){
+            .contacts22{
+                display: flex;
+            }
+            .img16{
+                width: 150px;
+                height: 40px;
+            }
+            .contacts2{
+                height: 100%;
+                width: 100%;
+                justify-content: space-between;
+            }
+            .booox{
+                height: 50%;
+                width: 90%;
+                display: flex;
+            }
+            .container_box{
+                display: none;
+            }
+            .center_box{
+                flex-direction: column;
+            }
+            .container_box1{
+                height: 100%;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .container_box2{
+                height: 100%;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .center_box{
+                height: 500px;
+            }
+            .linia{
+                width: 95%;
+            }
+            .choose_prise1{
+                margin-left: 10px;
+                margin-bottom: 10px;
+            }
+            .choose_prise2{
+                margin-left: 15px;
+                margin-bottom: 5px;
+            }
+            .menu{
+                height: 30%;
+            }
+            .mainright{
+                background-color: blue;
+            }
+            .filter{
+                height: 450px;
+                width: 100%;
+            }
+            .wrap2{
+                height: 2500px;
+            }
+            .cards{
+                width: 100%;
+            }
+            .mainleft{
+                margin-left: 0;
+                margin-top: 70px;
+                width: 100%;
+            }
+            .container2{
+                width: 80%;
+            }
+            .main{
+                height: 2500px;
+                flex-direction: column;
+            }
+            .box8{
+                padding-left: 9.5%;
+            }
+            .container{
+                align-items: center;
+            }
+            .wrap1{
+                height: 230px;
+            }
+            .box10{
+                width: 80%;
+                height: 70px;
+                font-size: 18px;
+            }
+            .header2{
+                display: none;
+            }
+            .box29{
+                height: 100%;
+                width: 60px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .burger{
+                height: 40%;
+                width: 50px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                justify-content: space-around;
+            }
+            .roww1{
+                height: 3px;
+                width: 15px;
+                background-color: black;
+            }
+            .roww2{
+                height: 3px;
+                width: 20px;
+                background-color: black;
+            }
+            .roww3{
+                height: 3px;
+                width: 25px;
+                background-color: black;
+            }
+            .nav{
+                display: none;
+            }
+            .contacts{
+                display: none;
+            }
+            .logo{
+                display: none;
+            }
+            .logo21{
+                display: flex;
+            }
+            .container{
+                width: 100%;
+            }
+            .header{
+                width: 100%;
+                height: 80px;
+                justify-content: center;
+                background-color: white;
+                box-shadow: 0px 10px 10px lightgray;
+            }
+            .coontainer{
+                width: 80%;
+                height: 80%;
+                display: flex;
+            }
+            .minicontainerleft{
+                width: 50%;
+                height: 100%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
+            .minicontainerright{
+                width: 50%;
+                height: 100%;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+            }
+            .immagess{
+                width: 50%;
+                height: 100%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            .img1{
+                height: 40%;
+                width: 100px;
+            }
+            @media screen and (max-width:890px){
+                .box22{
+                    width: 90%;
+                    height: 30%;
+                    display: flex;
+                    justify-content: center;
+                }
+                .inp1{
+                    margin-bottom: 10px;
+                }
+                .img15{
+                    display: none;
+                }
+                .box21{
+                    height: 200px;
+                    flex-direction: column;
+                    align-items: center;
+                    align-items: center;
+                }
+                .box23{
+                    height: 70%;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+            @media screen and (max-width:880px){
+            
+                .box20{
+                    height: 120px;
+                    flex-wrap: wrap;
+                    width: 700px;
+                }
+                .btn2{
+                    display: none;
+                }
+                .header3{
+                    width: 100%;
+                    padding-right: 138px;
+                    justify-content: center;
+                }
+                .filter2{
+                    display: none;
+                }
+                .wrap2{
+                    height: 3500px;
+                }
+                .mainleft{
+                    height: 3500px;
+                }
+                .cards{
+                    height: 2670px;
+                }
+                .main{
+                    height: 3900px;
+                }
+                .row{
+                    display: none;
+                }
+                .row2{
+                    display: none;
+                }
+                .row3{
+                    display: none;
+                }
+                .card{
+                    margin: 0 10px;
+                }
+                .rowww{
+                    display: flex;
+                    justify-content: center;
+                }
+                .rowww2{
+                    display: flex;
+                    justify-content: center;
+                }
+                .rowww1{
+                    display: flex;
+                    justify-content: center;
+                }
+                .rowww3{
+                    display: flex;
+                    justify-content: center;
+                }
+                .rowww4{
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+            @media screen and (max-width:700px){
+                .coontainer{
+                    width: 90%;
+                }
+               }
+            }
+            @media screen and (max-width:560px){
+                .price5{
+                    width: 100%;
+                    height: 30%;
+                    background-color: white;
+                    font-weight: 600;
+                    display: flex;
+                    border-bottom: 1px solid #333;
+                }
+                .mini{
+                    width: 90%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                }
+                .abboout{
+                    width: 100%;
+                    height: 200%;
+                    display: flex;
+                    justify-content: center;
+                }
+                .img16{
+                    height: 42px;
+                }
+                .logo10{
+                    height: 60px;
+                    display: flex;
+                    align-items: center;
+                }
+                .pay_cards{
+                    height: 60px;
+                }
+                .box24{
+                    font-size: 14px;
+                    display: flex;
+                    align-items: center;
+                }
+                .img20{
+                    height: 60px;
+                    width: 350px;
+                }
+                .img21{
+                    height: 25px;
+                    width: 25px;
+                }
+                .text1{
+                    height: 50%;
+                    width: 50%;
+                    margin: 0;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                }
+                .social_networks{
+                    width: 30%;
+                    height: 50%;
+                    margin: 0;
+                    justify-content: space-between;
+                }
+                .box26{
+                    height: 100%;
+                    width: 100%;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+                }
+                .contacts2{
+                    display: none;
+                }
+                .about_bottom{
+                    width: 100%;
+                    height: 200%;
+                }
+                .container_box1{
+                    height: 300px;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                }
+                .center_box{
+                    flex-direction: column;
+                    height: 500px;
+                }
+                .box20{
+                    margin-top: 20px;
+                }
+                .header3{
+                    padding: 0;
+                }
+                .s{
+                    margin-left: 50px;
+                }
+                .card{
+                    height: 600px;
+                    width: 320px;
+                }
+                .wrap2{
+                    height: 6420px;
+                }
+                .mainleft{
+                    height: 5700px;
+                }
+                .cards{
+                    height: 5530px;
+                }
+                .main{
+                    height: 6200px;
+                }
+                .rowww{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    height: 1220px;
+                    flex-direction: column;
+                    margin: 7px 0;
+                }
+                .rowww2{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    height: 1220px;
+                    flex-direction: column;
+                    margin: 7px 0;
+                }
+                .rowww1{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    height: 1220px;
+                    flex-direction: column;
+                    margin: 7px 0;
+                }
+                .rowww3{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    height: 1220px;
+                    flex-direction: column;
+                    margin: 7px 0;
+                }
+                .rowww4{
+                    padding-top: 100px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    margin: 7px 0;
+                }
+            }
+            @media screen and (max-width:600px){
+                .coontainer{
+                    width: 95%;
+                }
+            }
+            @media screen and (max-width:500px){
+                .coontainer{
+                    width: 98%;
+                }
+                    
+            }
+                
+            
+    </style>
+</head>
+<body>
+    <div class="wrap1">
+        <div class="container">
+            <div class="header">
+                <div class="coontainer">
+                   <div class="minicontainerleft">
+                    <div class="box29">
+                        <div class="burger">
+                            <div class="roww1"></div>
+                            <div class="roww2"></div>
+                            <div class="roww3"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="logo21">
+                        <a class="abf" href="index.html">
+                        <img class="img1" src="https://vovk.com/image/catalog/logo%202-3-1%20(1).png" alt="">
+                        </a>
+                    </div>
+                   </div>
+                   <div class="minicontainerright">
+                        <img src="katalog/mages.PNG" alt="">
+                   </div>
+                </div>
+                <div class="logo">
+                    <a href="index.html">
+                    <img class="img1" src="https://vovk.com/image/catalog/logo%202-3-1%20(1).png" alt="">
+                    </a>
+                </div>
+                <div class="nav">
+                    <ul class="ul1">
+                        <li>Доставка і оплата</li>
+                        <li>Блог</li>
+                        <li>Campaigns</li>
+                        <li>Наші студії</li>
+                        <li>Контакти</li>
+                        <li>Оптовим покупцям</li>
+                    </ul>
+                </div>
+                <div class="contacts">
+                    <div class="phone_number">
+                        <img class="img2" src="katalog/phone.png" alt="">
+                        <p class="p1">+38 068 710 41 00</p>
+                        <img class="img3" src="triko2.png" alt="">
+                    </div>
+                    <div class="box1">
+                        <img class="img4" src="katalog/pep.png" alt="">
+                        <img class="img5" src="katalog/triko2.png" alt="">
+                    </div>
+                    <div class="box2">
+                        <img class="img6" src="katalog/Снимок.PNG" alt="">
+                        <img class="img7" src="katalog/triko2.png" alt="">
+                    </div>
+                    <div class="box3">
+                        <img class="img77" src="katalog/ua.PNG" alt="">
+                        <img class="img7" src="katalog/triko2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="header2">
+                <div class="hovers">
+
+                    <div class="catalog">
+                   <a class="aqw" href="katalog.html">  <p class="awr1">КАТАЛОГ</p> </a>
+                    </div>
+                    <div class="news">
+                        <a class="aqw" href="news.html">
+                       <p class="awr1">
+                        НОВИНКИ
+                       </p>
+                        </a>
+                    </div>
+                    <div class="spring">
+                        <a class="aqw" href="spring.html">  <p class="awr1">SPRING-SUMMER 2022</p> </a>
+                    </div>
+                    <div class="big_size">
+                        <a class="aqw" href="big.html">  <p class="awr1">ВЕЛИКІ РОЗМІРИ</p> </a>
+                    </div>
+                    <div class="ACCESSORIES">ACCESSORIES</div>
+                    <div class="SALE">SALE</div>
+                    <div class="BASE">BASE</div>
+                    <div class="SURPRISE">ПОДАРУНКОВІ СЕРТИФІКАТИ</div>
+                </div>
+                <div class="box4">
+                    <img class="img8" src="katalog/search (1).png" alt="">
+                </div>
+                <div class="box5">
+                    <img class="img9" src="katalog/heart.png" alt="">
+                </div>
+                <div class="box6">
+                    <div class="box7"><img class="img10" src="katalog/shopping-cart.png" alt="">
+                        <p class="p2">Кошик</p>
+                    </div>
+                    <div class="circkle">0</div>
+                </div>
+            </div>
+            <div class="box8">
+                <div class="box9"> Головна <p class="p5"> / </p> <p class="p4">Каталог</p></p></div>
+            </div>
+            <div class="box10">-20% на все</div>
+        </div>
+    </div>
+    <div class="wrap2">
+        <div class="container2">
+            <div class="catalog2">
+                <h1 class="h1">Каталог жіночого одягу</h1>
+                <hr>
+            </div>
+            <div class="main">
+                <div class="filter">
+                    <div class="price">
+                        <div class="class">Ціна</div>
+                        <div class="price1"><img src="katalog/downward-arrow (1).png" alt=""></div>
+                    </div>
+                    <div class="menu">
+                        <div class="price2">
+                            <div class="kolo"></div>
+                            <div class="linia"></div>
+                            <div class="kolo"></div>
+                        </div>
+                        <div class="input">
+                            <div class="boox1">
+                                <p class="from">Від</p>
+                                <input class="choose_prise1" placeholder="152" maxlength="4" type="text">
+                            </div>
+                            <div class="boox1">
+                                <p class="to">До</p>
+                                <input class="choose_prise2" placeholder="5690" maxlength="4" type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="price3">
+                        <div class="class">Розмір</div>
+                        <div class="price1"><img src="katalog/downward-arrow (1).png" alt=""></div>
+                    </div>
+                    <div class="price3">
+                        <div class="class">Фасон</div>
+                        <div class="price1"><img src="katalog/downward-arrow (1).png" alt=""></div>
+                    </div>
+                    <div class="price3">
+                        <div class="class">Колір</div>
+                        <div class="price1"><img src="katalog/downward-arrow (1).png" alt=""></div>
+                    </div>
+                    <div class="price3"> 
+                        <div class="class">Матеріал</div>
+                        <div class="price1"><img src="katalog/downward-arrow (1).png" alt=""></div>
+                    </div>
+                    <div class="price3">
+                        <div class="class">Сезон</div>
+                        <div class="price1"><img src="katalog/downward-arrow (1).png" alt=""></div>
+                    </div>
+                    <div class="price3">
+                        <div class="class">Стиль</div>
+                        <div class="price1"><img src="katalog/downward-arrow (1).png" alt=""></div>
+                    </div>
+                </div>
+                <div class="mainleft">
+                    <div class="header3">
+                        <div class="droopdown">
+                            <p class="p5">Сортувати:</p>
+                            <select class="select1" name="" id="">
+                                <option class="option1" selected value="value1">За замовчуванням</option>
+                                <option class="option1" value="value2">За Ім’ям (A - Я)</option>
+                                <option class="option1" value="value3">За Ім’ям (Я - A)</option>
+                                <option class="option1" value="value4">Ціна ▲</option>
+                                <option class="option1" value="value5">Ціна ▼</option>
+                                <option class="option1" value="value2">За популярністю</option>
+                            </select>
+                        </div>
+                        <div class="filter2">
+                            <p class="p6">Вид:</p>
+                            <div class="box12">
+                                Плитка:
+                                <img class="img12" src="katalog/blocks.PNG" alt="">
+                            </div>
+                            <div class="box13">
+                                Список:
+                                <img class="img13" src="katalog/burger.PNG" alt="">
+                            </div>
+                        </div>
+                    </div>
+                        <div class="cards">
+                            <div class="row">
+                                <div class="card">
+                                    <div class="photo1">
+                                        <div class="box14">
+                                            <div class="box15">
+                                                <div class="sale">-20%</div>
+                                            </div>
+                                            <div class="box16">
+                                                <div class="kryg">
+                                                    <img class="img14" src="katalog/heart.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cardbottom">
+                                        <div class="box17">
+                                            <p>Сукня з зав`язкою та відкритою спиною великі горохи на жовтому</p>
+                                            <div class="box18">
+                                                <ul class="ul2">
+                                                    <li class="li1">792</li>
+                                                    <li class="li2">грн</li>
+                                                </ul>
+                                                <ul class="ul1">
+                                                    <s class="s">
+                                                    <li>990</li>
+                                                    <li>грн</li>
+                                                    </s>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="photo2">
+                                        <div class="box14">
+                                            <div class="box15">
+                                                <div class="sale">-20%</div>
+                                            </div>
+                                            <div class="box16">
+                                                <div class="kryg">
+                                                    <img class="img14" src="katalog/heart.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cardbottom">
+                                        <div class="box17">
+                                            <p>Футболка трикотажна оверсайз блакитно-жовта</p>
+                                            <div class="box18">
+                                                <ul class="ul2">
+                                                    <li class="li1">472</li>
+                                                    <li class="li2">грн</li>
+                                                </ul>
+                                                <ul class="ul1">
+                                                    <s class="s">
+                                                    <li>590</li>
+                                                    <li>грн</li>
+                                                    </s>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="photo3">
+                                        <div class="box14">
+                                            <div class="box15">
+                                                <div class="sale">-20%</div>
+                                            </div>
+                                            <div class="box16">
+                                                <div class="kryg">
+                                                    <img class="img14" src="katalog/heart.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cardbottom">
+                                        <div class="box17">
+                                            <p>Сукня-сорочка з коротким рукавом кольору хакі</p>
+                                            <div class="box18">
+                                                <ul class="ul2">
+                                                    <li class="li1">872</li>
+                                                    <li class="li2">грн</li>
+                                                </ul>
+                                                <ul class="ul1">
+                                                    <s class="s">
+                                                    <li>1090</li>
+                                                    <li>грн</li>
+                                                    </s>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row2">
+                                <div class="card">
+                                    <div class="photo4">
+                                        <div class="box14">
+                                            <div class="box15">
+                                                <div class="sale">-20%</div>
+                                            </div>
+                                            <div class="box16">
+                                                <div class="kryg">
+                                                    <img class="img14" src="katalog/heart.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cardbottom">
+                                        <div class="box17">
+                                            <p>Сукня ярусна міні краплини на сірому</p>
+                                            <div class="box18">
+                                                <ul class="ul2">
+                                                    <li class="li1">872</li>
+                                                    <li class="li2">грн</li>
+                                                </ul>
+                                                <ul class="ul1">
+                                                    <s class="s">
+                                                    <li>1090</li>
+                                                    <li>грн</li>
+                                                    </s>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="photo5">
+                                        <div class="box14">
+                                            <div class="box15">
+                                                <div class="sale">-20%</div>
+                                            </div>
+                                            <div class="box16">
+                                                <div class="kryg">
+                                                    <img class="img14" src="katalog/heart.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cardbottom">
+                                        <div class="box17">
+                                            <p>Брюки завужені молочний горох на фоні мокко</p>
+                                            <div class="box18">
+                                                <ul class="ul2">
+                                                    <li class="li1">792</li>
+                                                    <li class="li2">грн</li>
+                                                </ul>
+                                                <ul class="ul1">
+                                                    <s class="s">
+                                                    <li>990</li>
+                                                    <li>грн</li>
+                                                    </s>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="photo6">
+                                        <div class="box14">
+                                            <div class="box15">
+                                                <div class="sale">-20%</div>
+                                            </div>
+                                            <div class="box16">
+                                                <div class="kryg">
+                                                    <img class="img14" src="katalog/heart.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cardbottom">
+                                        <div class="box17">
+                                            <p>Кроп-топ з зав`язкою молочний горох на фоні мокко</p>
+                                            <div class="box18">
+                                                <ul class="ul2">
+                                                    <li class="li1">392</li>
+                                                    <li class="li2">грн</li>
+                                                </ul>
+                                                <ul class="ul1">
+                                                    <s class="s">
+                                                    <li>490</li>
+                                                    <li>грн</li>
+                                                    </s>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row2">
+                                <div class="card">
+                                    <div class="photo7">
+                                        <div class="box14">
+                                            <div class="box15">
+                                                <div class="sale">-20%</div>
+                                            </div>
+                                            <div class="box16">
+                                                <div class="kryg">
+                                                    <img class="img14" src="katalog/heart.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cardbottom">
+                                        <div class="box17">
+                                            <p>Пальто на запах з капюшоном бежеве</p>
+                                            <div class="box18">
+                                                <ul class="ul2">
+                                                    <li class="li1">2632</li>
+                                                    <li class="li2">грн</li>
+                                                </ul>
+                                                <ul class="ul1">
+                                                    <s class="s">
+                                                    <li>3290</li>
+                                                    <li>грн</li>
+                                                    </s>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="photo8">
+                                        <div class="box14">
+                                            <div class="box15">
+                                                <div class="sale">-20%</div>
+                                            </div>
+                                            <div class="box16">
+                                                <div class="kryg">
+                                                    <img class="img14" src="katalog/heart.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cardbottom">
+                                        <div class="box17">
+                                            <p>Сукня ярусна міні краплини на фоні фуксії</p>
+                                            <div class="box18">
+                                                <ul class="ul2">
+                                                    <li class="li1">872</li>
+                                                    <li class="li2">грн</li>
+                                                </ul>
+                                                <ul class="ul1">
+                                                    <s class="s">
+                                                    <li>1090</li>
+                                                    <li>грн</li>
+                                                    </s>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="photo9">
+                                        <div class="box14">
+                                            <div class="box15">
+                                                <div class="sale">-20%</div>
+                                            </div>
+                                            <div class="box16">
+                                                <div class="kryg">
+                                                    <img class="img14" src="katalog/heart.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cardbottom">
+                                        <div class="box17">
+                                            <p>Рожевий вельветовий жакет</p>
+                                            <div class="box18">
+                                                <ul class="ul2">
+                                                    <li class="li1">1352</li>
+                                                    <li class="li2">грн</li>
+                                                </ul>
+                                                <ul class="ul1">
+                                                    <s class="s">
+                                                    <li>1690</li>
+                                                    <li>грн</li>
+                                                    </s>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rowww">
+                                <div class="card">
+                                    <div class="photo1">
+                                        <div class="box14">
+                                            <div class="box15">
+                                                <div class="sale">-20%</div>
+                                            </div>
+                                            <div class="box16">
+                                                <div class="kryg">
+                                                    <img class="img14" src="katalog/heart.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cardbottom">
+                                        <div class="box17">
+                                            <p>Сукня з зав`язкою та відкритою спиною великі горохи на жовтому</p>
+                                            <div class="box18">
+                                                <ul class="ul2">
+                                                    <li class="li1">792</li>
+                                                    <li class="li2">грн</li>
+                                                </ul>
+                                                <ul class="ul1">
+                                                    <s class="s">
+                                                    <li>990</li>
+                                                    <li>грн</li>
+                                                    </s>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="photo2">
+                                        <div class="box14">
+                                            <div class="box15">
+                                                <div class="sale">-20%</div>
+                                            </div>
+                                            <div class="box16">
+                                                <div class="kryg">
+                                                    <img class="img14" src="katalog/heart.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cardbottom">
+                                        <div class="box17">
+                                            <p>Футболка трикотажна оверсайз блакитно-жовта</p>
+                                            <div class="box18">
+                                                <ul class="ul2">
+                                                    <li class="li1">472</li>
+                                                    <li class="li2">грн</li>
+                                                </ul>
+                                                <ul class="ul1">
+                                                    <s class="s">
+                                                    <li>590</li>
+                                                    <li>грн</li>
+                                                    </s>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rowww1">
+                                <div class="card">
+                                    <div class="photo3">
+                                        <div class="box14">
+                                            <div class="box15">
+                                                <div class="sale">-20%</div>
+                                            </div>
+                                            <div class="box16">
+                                                <div class="kryg">
+                                                    <img class="img14" src="katalog/heart.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cardbottom">
+                                        <div class="box17">
+                                            <p>Сукня-сорочка з коротким рукавом кольору хакі</p>
+                                            <div class="box18">
+                                                <ul class="ul2">
+                                                    <li class="li1">872</li>
+                                                    <li class="li2">грн</li>
+                                                </ul>
+                                                <ul class="ul1">
+                                                    <s class="s">
+                                                    <li>1090</li>
+                                                    <li>грн</li>
+                                                    </s>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="photo4">
+                                        <div class="box14">
+                                            <div class="box15">
+                                                <div class="sale">-20%</div>
+                                            </div>
+                                            <div class="box16">
+                                                <div class="kryg">
+                                                    <img class="img14" src="katalog/heart.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cardbottom">
+                                        <div class="box17">
+                                            <p>Сукня ярусна міні краплини на сірому</p>
+                                            <div class="box18">
+                                                <ul class="ul2">
+                                                    <li class="li1">872</li>
+                                                    <li class="li2">грн</li>
+                                                </ul>
+                                                <ul class="ul1">
+                                                    <s class="s">
+                                                    <li>1090</li>
+                                                    <li>грн</li>
+                                                    </s>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rowww2">
+                                <div class="card">
+                                    <div class="photo5">
+                                        <div class="box14">
+                                            <div class="box15">
+                                                <div class="sale">-20%</div>
+                                            </div>
+                                            <div class="box16">
+                                                <div class="kryg">
+                                                    <img class="img14" src="katalog/heart.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cardbottom">
+                                        <div class="box17">
+                                            <p>Брюки завужені молочний горох на фоні мокко</p>
+                                            <div class="box18">
+                                                <ul class="ul2">
+                                                    <li class="li1">792</li>
+                                                    <li class="li2">грн</li>
+                                                </ul>
+                                                <ul class="ul1">
+                                                    <s class="s">
+                                                    <li>990</li>
+                                                    <li>грн</li>
+                                                    </s>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="photo6">
+                                        <div class="box14">
+                                            <div class="box15">
+                                                <div class="sale">-20%</div>
+                                            </div>
+                                            <div class="box16">
+                                                <div class="kryg">
+                                                    <img class="img14" src="katalog/heart.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cardbottom">
+                                        <div class="box17">
+                                            <p>Кроп-топ з зав`язкою молочний горох на фоні мокко</p>
+                                            <div class="box18">
+                                                <ul class="ul2">
+                                                    <li class="li1">392</li>
+                                                    <li class="li2">грн</li>
+                                                </ul>
+                                                <ul class="ul1">
+                                                    <s class="s">
+                                                    <li>490</li>
+                                                    <li>грн</li>
+                                                    </s>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rowww3">
+                                <div class="card">
+                                    <div class="photo7">
+                                        <div class="box14">
+                                            <div class="box15">
+                                                <div class="sale">-20%</div>
+                                            </div>
+                                            <div class="box16">
+                                                <div class="kryg">
+                                                    <img class="img14" src="katalog/heart.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cardbottom">
+                                        <div class="box17">
+                                            <p>Пальто на запах з капюшоном бежеве</p>
+                                            <div class="box18">
+                                                <ul class="ul2">
+                                                    <li class="li1">2632</li>
+                                                    <li class="li2">грн</li>
+                                                </ul>
+                                                <ul class="ul1">
+                                                    <s class="s">
+                                                    <li>3290</li>
+                                                    <li>грн</li>
+                                                    </s>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="photo8">
+                                        <div class="box14">
+                                            <div class="box15">
+                                                <div class="sale">-20%</div>
+                                            </div>
+                                            <div class="box16">
+                                                <div class="kryg">
+                                                    <img class="img14" src="katalog/heart.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cardbottom">
+                                        <div class="box17">
+                                            <p>Сукня ярусна міні краплини на фоні фуксії</p>
+                                            <div class="box18">
+                                                <ul class="ul2">
+                                                    <li class="li1">872</li>
+                                                    <li class="li2">грн</li>
+                                                </ul>
+                                                <ul class="ul1">
+                                                    <s class="s">
+                                                    <li>1090</li>
+                                                    <li>грн</li>
+                                                    </s>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rowww4">
+                                <div class="card">
+                                    <div class="photo9">
+                                        <div class="box14">
+                                            <div class="box15">
+                                                <div class="sale">-20%</div>
+                                            </div>
+                                            <div class="box16">
+                                                <div class="kryg">
+                                                    <img class="img14" src="katalog/heart.png" alt="a">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cardbottom">
+                                        <div class="box17">
+                                            <p>Рожевий вельветовий жакет</p>
+                                            <div class="box18">
+                                                <ul class="ul2">
+                                                    <li class="li1">1352</li>
+                                                    <li class="li2">грн</li>
+                                                </ul>
+                                                <ul class="ul1">
+                                                    <s class="s">
+                                                    <li>1690</li>
+                                                    <li>грн</li>
+                                                    </s>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btnn"><button class="btn">Завантажити ще 9 товарів</button></div>
+                        <div class="box19">
+                            <div class="box20">
+                                <div class="bigone">1</div>
+                                <div class="smallone">2</div>
+                                <div class="smallone">3</div>
+                                <div class="smallone">4</div>
+                                <div class="smallone">5</div>
+                                <div class="smallone">6</div>
+                                <div class="smallone">7</div>
+                                <div class="smallone">8</div>
+                                <div class="smallone">9</div>
+                                <button class="btn2">Наступна</button>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrap3">
+        <div class="box21">
+            <div class="box22">
+                <div class="img15">
+                    <img src="katalog/gmail.PNG" alt="">
+                </div>
+                <p class="p7">Підпишіться на розсилку знижок і новин</p>
+            </div>
+            <div class="box23">
+                <input class="inp1" placeholder="Підпишіться на нашу розсилку" type="text">
+                <div class="btn3">Підписатися</div>
+            </div>
+        </div>
+        <div class="center_box">
+            <div class="abboout">
+                <div class="mini">
+                    <div class="price5">
+                        <div class="class">Інформація</div>
+                        <div class="price1"><img src="katalog/downward-arrow (1).png" alt=""></div>
+                    </div>
+                    <div class="price5">
+                        <div class="class">Каталог товарів</div>
+                        <div class="price1"><img src="katalog/downward-arrow (1).png" alt=""></div>
+                    </div>
+                    <div class="price5">
+                        <div class="class">Меню</div>
+                        <div class="price1"><img src="katalog/downward-arrow (1).png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="booox">
+                <div class="container_box1">
+                    <div class="about_bottom">
+                        <div class="logo10"><img class="img16" src="https://vovk.com/image/catalog/logo%202-3-1%20(1).png" alt=""></div>
+                        <div class="pay_cards">
+                            <img class="img18" src="https://vovk.com/image/catalog/home/mastercard.svg" alt="">
+                            <img class="img19" src="https://vovk.com/image/catalog/home/visa.svg" alt="">
+                        </div>
+                        <div class="box24">Бренд жіночого одягу, народжений в <br> Україні</div>
+                        <div class="images1"><img class="img20" src="https://vovk.com/image/editor/fav_21.png" alt=""></div>
+                    </div>
+                    <div class="box26">
+                        <div class="text1">Ми в соц.мережах</div>
+                        <div class="social_networks">
+                            <img class="img21" src="katalog/premium-icon-facebook-3670271.png" alt="">
+                            <img class="img21" src="katalog/premium-icon-instagram-3670274.png" alt="">
+                            <img class="img21" src="katalog/premium-icon-youtube-3669688.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="booox">
+                <div class="container_box2">
+                    <div class="contacts2">
+                        <ul>
+                            <li class="head_li">Інформація</li>
+                            <li class="li33">Повернення і обмін</li>
+                            <li class="li3">Програма лояльності</li>
+                            <li class="li3">Публічна оферта</li>
+                            <li class="li3">Політика конфіденційності</li>
+                            <li class="li3">Подарункові сертифікати</li>
+                        </ul>
+                        <ul>
+                            <li class="head_li">Каталог товарів</li>
+                            <li class="li33">Весь каталог</li>
+                            <li class="li3">Accessories</li>
+                            <li class="li3">Новинки</li>
+                            <li class="li3">Sale</li>
+                            <li class="li3">New Year 21/22</li>
+                            <li class="li3">Сертифікати</li>
+                        </ul>
+                        <ul>
+                            <li class="head_li">Меню</li>
+                            <li class="li33">Доставка і оплата</li>
+                            <li class="li3">Блог</li>
+                            <li class="li3">Campaigns</li>
+                            <li class="li3">Контакти</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container_box">
+                <div class="about_bottom">
+                    <div class="logo10"><img class="img16" src="https://vovk.com/image/catalog/logo%202-3-1%20(1).png" alt=""></div>
+                    <div class="pay_cards">
+                        <img class="img18" src="https://vovk.com/image/catalog/home/mastercard.svg" alt="">
+                        <img class="img19" src="https://vovk.com/image/catalog/home/visa.svg" alt="">
+                    </div>
+                    <div class="box24">Бренд жіночого одягу, народжений в <br> Україні</div>
+                    <div class="images1"><img class="img20" src="https://vovk.com/image/editor/fav_21.png" alt=""></div>
+                </div>
+                <div class="contacts2">
+                    <ul>
+                        <li class="head_li">Інформація</li>
+                        <li class="li33">Повернення і обмін</li>
+                        <li class="li3">Програма лояльності</li>
+                        <li class="li3">Публічна оферта</li>
+                        <li class="li3">Політика конфіденційності</li>
+                        <li class="li3">Подарункові сертифікати</li>
+                    </ul>
+                    <ul>
+                        <li class="head_li">Каталог товарів</li>
+                        <li class="li33">Весь каталог</li>
+                        <li class="li3">Accessories</li>
+                        <li class="li3">Новинки</li>
+                        <li class="li3">Sale</li>
+                        <li class="li3">New Year 21/22</li>
+                        <li class="li3">Сертифікати</li>
+                    </ul>
+                    <ul>
+                        <li class="head_li">Меню</li>
+                        <li class="li33">Доставка і оплата</li>
+                        <li class="li3">Блог</li>
+                        <li class="li3">Campaigns</li>
+                        <li class="li3">Контакти</li>
+                    </ul>
+                </div>
+                <div class="box26">
+                    <div class="text1">Ми в соц.мережах</div>
+                    <div class="social_networks">
+                        <img class="img21" src="katalog/premium-icon-facebook-3670271.png" alt="">
+                        <img class="img21" src="katalog/premium-icon-instagram-3670274.png" alt="">
+                        <img class="img21" src="katalog/premium-icon-youtube-3669688.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box30">2022. VOVK</div>
+    </div>
+</body>
+</html>
