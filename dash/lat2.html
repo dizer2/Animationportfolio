@@ -1,0 +1,2642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/apple.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Pelio</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    .wrap{
+        width: 100%;
+        height: 200vh;
+        background-color: rgba(245, 245, 245, 1);
+        display: flex;
+    }
+.leftbox{
+    width: 25%;
+    height: 200vh;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.headleftbox{
+    width: 100%;
+    height: 30vh;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.bodyleftbox{
+    width: 100%;
+    height: 85vh;
+    /* background-color: chocolate; */
+}
+.headheader{
+    width: 100%;
+    height: 70px;
+    /* background-color: rgb(72, 255, 0); */
+    margin-top: 20px;
+    padding-left: 35px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.peliologo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(14, 110, 255, 1);
+    margin-left: 15px;
+}
+.btndash{
+    width: 200px;
+    height: 50px;
+    background: #0E6EFF;
+border-radius: 10px;
+margin-left: 25px;
+margin-top: 30px;
+padding-left: 15px;
+display: flex;
+align-items: center;
+cursor: pointer;
+}
+.textdash{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 15px;
+}
+.textbodyleftbox{
+    width: 100%;
+    height: 40px;
+    /* background-color: blue; */
+    padding-left: 40px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.wallet{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+
+color: #72757A;
+margin-left: 15px;
+
+}
+.plam{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+color: #171B1E;
+padding-left: 40px;
+margin-top: 70px;
+}
+.alltextb{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #72757A;
+padding-left: 40px;
+margin-top: 10px;
+}
+.head{
+    width: 100%;
+    height: 15vh;
+    /* background-color: blue; */
+    display: flex;
+}
+.headlogo{
+    width: 25%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+
+.headlogobox{
+    width: 100%;
+    height: 70px;
+    /* background-color: darkorange; */
+    margin-top: 15px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+
+}
+.kub{
+    width: 30px;
+}
+.hum{
+    width: 30px;
+
+}
+.logorashboard{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 62px;
+    color: #171B1E;
+    margin-left: 10px;
+    
+}
+.saerchhead{
+    width: 35%;
+  height: 100%;
+  /* background-color: chartreuse; */
+  padding-top: 25px;  
+  display: flex;
+justify-content: center;
+}
+.searchbtn{
+    width: 300px;
+height: 50px;
+background: #FFFFFF;
+box-shadow: 0px 8px 25px rgba(226, 226, 226, 0.25);
+border-radius: 15px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+cursor: pointer;
+}
+.searchtext{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #72757A;
+margin-left: 20px;
+}
+.searchphoto{
+    margin-right: 30px;
+}
+.konghead{
+    width: 40%;
+    height: 100%;
+    /* background-color: darkcyan; */
+    display: flex;
+}
+
+.headsend{
+width: 35%;
+height: 100%;
+/* background-color: rgb(234, 8, 255); */
+padding-left: 40px;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+.profichead{
+    width: 65%;
+    height: 100%;
+    /* background-color: cornflowerblue; */
+    display: flex;
+
+}
+.qwe{
+    width: 30px;
+    
+}
+.qwee{
+    width: 39px;
+    margin-left: 25px;
+
+}
+.avatarhead{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* background-color: crimson; */
+}
+.avaphoto{
+    width: 55px;
+    margin-right: 20px;
+}
+.textprofic{
+    width: 60%;
+    height: 100%;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.shamin{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 31px;
+color: #000000;
+}
+.emailprofil{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #72757A;
+}
+.conheadwe{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.cles{
+    width: 25px;
+    cursor: pointer;
+}
+
+.headerbigbody{
+    width: 100%;
+    height: 200vh;
+    /* background-color: darkgreen; */
+    display: flex;
+    flex-direction: column;
+}
+.bodywrapq{
+    width: 100%;
+    height: 30vh;
+    /* background-color: #000000; */
+    display: flex;
+}
+.leftbodywrap{
+    width: 50%;
+    height: 100%;
+    /* background-color: aqua; */
+    padding-left: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 50px
+    
+}
+
+.btncardbody{
+    width: 230px;
+height: 120px;
+background: #03B664;
+border-radius: 20px;
+display: flex;
+margin-right: 30px;
+cursor: pointer;
+}
+.leftcardb{
+width: 70%;
+height: 100%;
+/* background-color: blueviolet; */
+display: flex;
+}
+.rightcardb{
+    width: 30%;
+height: 100%;
+/* background-color: rgb(5, 224, 97); */
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+cursor: pointer;
+}
+.leftbtnleft{
+    width: 40%;
+    height: 100%;
+    /* background-color: brown; */
+    padding-top: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+.rightbtnright{
+
+ width: 60%;
+    height: 100%;
+    /* background-color: rgb(165, 255, 21); */
+    padding-top: 18px;
+    padding-left: 10px;
+
+}
+.boxcardbtn{
+    width: 40px;
+height: 40px;
+background:  rgb(61, 184, 128);
+/* opacity: 0.2; */
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.spisok{
+    width: 20px;
+    height: 20px;
+}
+.cardbtntext{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 39px;
+color: #FFFFFF;
+
+}
+.totaltextbtn{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 21px;
+color: #FFFFFF;
+
+}
+.boxkolcard{
+    width: 140px;
+    height: 70px;
+background: rgba(245, 245, 245, 1);
+opacity: 0.2;
+border-radius: 50%;
+margin-top: 10px;
+position: relative;
+top: 20px;
+left: 15px;
+}
+.btncardbody2{
+    width: 230px;
+    height: 120px;
+    background:  rgba(1, 190, 255, 1);
+    border-radius: 20px;
+    display: flex;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.boxcardbtn2{
+    width: 40px;
+height: 40px;
+background:  rgb(71, 205, 250);
+/* opacity: 0.2; */
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.rightbodywrap{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(127, 0, 247); */
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 50px
+}
+.btncardbody3{
+    width: 230px;
+    height: 120px;
+    background:  rgba(255, 191, 38, 1);
+    border-radius: 20px;
+    display: flex;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.boxcardbtn3{
+    width: 40px;
+height: 40px;
+background:  rgb(252, 200, 78);
+/* opacity: 0.2; */
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.rightbtnright3{
+    width: 65%;
+    height: 100%;
+    /* background-color: rgb(165, 255, 21); */
+    padding-top: 18px;
+    padding-left: 10px;
+}
+
+.btncardbody4{
+    width: 230px;
+    height: 120px;
+    background:  rgba(255, 104, 77, 1);
+    border-radius: 20px;
+    display: flex;
+    margin-right: 30px; 
+    cursor: pointer;
+}
+.boxcardbtn4{
+    width: 40px;
+    height: 40px;
+     background:  rgb(253, 125, 102); 
+    /* opacity: 0.2; */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.totaltextbtn1{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.bodywrap2{
+    width: 100%;
+    height: 80vh;
+    /* background-color: cornflowerblue; */
+    display: flex;
+}
+.leftbodywrap2{
+    width: 74%;
+    height: 100%;
+    /* background-color: darkgoldenrod; */
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+.boxbigwrap2{
+    width: 96%;
+    height: 95%;
+    background: #FFFFFF;
+border-radius: 20px;
+}
+.headboxbigwrap2{
+    width: 100%;
+    height: 15%;
+    /* background-color: brown; */
+    display: flex;
+    
+}
+.biggerleftbodywrap2{
+    width: 100%;
+    height: 70%;
+    /* background-color: blueviolet; */
+    padding-top: 15px;
+}
+
+.leftheadboxbigwrap2{
+    width: 50%;
+    height: 100%;
+    /* background-color: cyan; */
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.rightheadboxbigwrap2{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(255, 212, 19); */
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.lastertextwrap2{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 31px;
+color: #171B1E;
+
+}
+.lastertextwrap3{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 31px;
+color: #1f2122;
+padding-right: 10px;
+
+}
+.humbtextwrap2{
+    width: 20px;
+    cursor: pointer;
+}
+.boxgibleftwrap2big{
+    width: 100%;
+    height: 60px;
+    /* background-color: coral; */
+    display: flex;
+    
+    
+}
+.boxgibleftwrap2big2{
+    
+        width: 100%;
+        height: 60px;
+        /* background-color: coral; */
+        display: flex;
+        margin-top: 20px;
+        
+}
+
+
+
+.boxxeqbigwrap1{
+    width: 32%;
+    height: 100%;
+    /* background-color: rgb(8, 72, 156); */
+    padding-left: 20px;
+    display: flex;
+   
+}
+.boxxeqbigwrap2{
+    width: 33%;
+    height: 100%;
+    /* background-color: rgb(104, 202, 23); */
+    display: flex;
+}
+.boxxeqbigwrap3{
+    width: 35%;
+    height: 100%;
+    /* background-color: rgb(255, 51, 15); */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.blueboxwrap2{
+    width: 42px;
+height: 42px;
+background: #0E6EFF;
+border-radius: 5px;
+}
+.rlawrap2{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 18px;
+color: #0E6EFF;
+
+
+}
+.fhhff{
+    width: 25%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+   
+}
+.fhhff2{
+    width: 25%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+   margin-left: 70px;
+}
+
+
+
+.qwert{
+    width: 75%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+.codestextwrap2{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 23px;
+color: #171B1E;
+
+}
+.blueboxwrap3{
+    width: 42px;
+height: 42px;
+background: rgb(224, 247, 255);
+margin-right: 10px;
+
+border-radius: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.Amount{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+color: #72757A;
+}
+.amoutwerty{
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+color: #171B1E;
+}
+.textboxxeqbigwrap3{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #72757A;
+margin-left: 40px;
+
+}
+.print{
+    margin-left: 50px;
+}
+.tochka{
+    margin-left: 40px;
+    width: 20px;
+}
+
+.blueboxwrap4{
+    width: 42px;
+height: 42px;
+background: rgb(255, 38, 183);
+border-radius: 5px;
+}
+.blueboxwrap44{
+    width: 40px;
+height: 40px;
+background:  rgb(255, 248, 226);
+/* opacity: 0.2; */
+border-radius: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 12px;
+}
+.rlawrap33{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+color: #01BEFF;
+}
+.blueboxwrap444{
+    width: 42px;
+    height: 42px;
+    background: rgba(0, 209, 113, 1);
+    border-radius: 5px;
+}
+.blueboxwrap544{
+    width: 40px;
+    height: 40px;
+    background:  rgb(255, 230, 230);
+    /* opacity: 0.2; */
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+}
+.blueboxwrap554{
+    width: 42px;
+    height: 42px;
+    background: rgb(208, 255, 77);
+    border-radius: 5px;
+}
+.blueboxwrap355{
+    width: 40px;
+    height: 40px;
+    background:  rgb(207, 255, 234);
+    /* opacity: 0.2; */
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+}
+.konecleftbodywrap2{
+    width: 100%;
+    height: 15%;
+    /* background-color: rgb(29, 202, 29); */
+    display: flex;
+}
+
+
+.leftkonecleftbodywrap2{
+    width: 50%;
+    height: 100%;
+    /* background-color: brown; */
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.rightkonecleftbodywrap2{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(29, 185, 94); */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+.leftetxtkonuic{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+color: #72757A;
+
+}
+.boxrightkociv{
+    
+width: 35px;
+height: 35px;
+background: transparent;
+border: 1px solid #A2A2A2;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.textboxbtnkonich{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+
+}
+.textboxbtnkonich2{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+color: #72757A;
+}
+
+
+
+
+.boxrightkociv1{
+    
+    width: 35px;
+    height: 35px;
+    background: #0E6EFF;
+box-shadow: 0 7px 15px rgba(14, 110, 255, 0.3);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    }
+.boxrightkociv2{
+    width: 35px;
+height: 35px;
+background: transparent;
+border: 1px solid #A2A2A2;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 15px;
+}
+
+.boxrightkociv44{
+    width: 35px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid #A2A2A2;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.statisticwrap3{
+    width: 26%;
+    height: 100%;
+    /* background-color: darkred; */
+    padding-top: 20px;
+}
+.boxstaticticwrap2{
+    width: 82%;
+    height: 95%;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+}
+.headboxstaticticwrap2{
+    width: 100%;
+    height: 15%;
+    /* background-color: blue; */
+    padding-left: 20px;
+    padding-top:15px;
+}
+.bigboxstaticticwrap2{
+    width: 100%;
+    height: 60%;
+    /* background-color: rgb(39, 236, 22); */
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+
+}
+.nicboxstaticticwrap2{
+    width: 100%;
+    height: 25%;
+    /* background-color: blueviolet; */
+    display: flex;
+}
+.textstasticsricrightwrap2{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 31px;
+color: #171B1E;
+
+}
+.statisticphotorightw{
+    width: 210px;
+    cursor: pointer;
+}
+.rightnicboxstaticticwrap2{
+    width: 50%;
+    height: 100%;
+    /* background-color: cornflowerblue; */
+}
+.leftnicboxstaticticwrap2{
+    width: 50%;
+    height: 100%;
+    /* background-color: brown; */
+}
+.boxboxrightwrap2n{
+    width: 100%;
+    height: 50px;
+    /* background-color: darkmagenta; */
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.boxbtnwrapn{
+    width: 10px;
+height: 10px;
+border-radius: 50%;
+background: #00D171;
+}
+.grennq{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+color: #72757A;
+margin-left: 6px;
+}
+.boxbtnwrapn2{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(255, 186, 20, 1);
+}
+.boxboxrightwrap2n2{
+    width: 100%;
+    height: 50px;
+    /* background-color: darkmagenta; */
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.boxbtnwrapn3{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(14, 110, 255, 1);
+}
+.boxbtnwrapn4{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(255, 104, 77, 1);
+}
+
+.wrap33{
+    width: 100%;
+    height: 60vh;
+    /* background-color: coral; */
+    padding-left: 20px;
+    display: flex;
+}
+.leftwrap33{
+    width: 30%;
+    height: 95%;
+    /* background-color: aquamarine; */
+}
+
+.bigwrap33{
+    width: 30%;
+    height: 95%;
+    /* background-color: crimson; */
+    margin-left: 30px;
+}
+.konwrap33{
+    width: 29.6%;
+    height: 95%;
+    /* background-color: rgb(77, 220, 20); */
+    margin-left: 30px;
+}
+.cardleftwrap33{
+    width: 100%;
+    height: 70%;
+    /* background-color: blue; */
+}
+.leftwrap33tran{
+    width: 100%;
+    height: 30%;
+    /* background-color: rgb(112, 189, 12); */
+}
+.cardbtn33{
+    width: 100%;
+    height: 90%;
+    background: linear-gradient(247.35deg, #936DFF 0%, #3ED1FF 100%);
+border-radius: 20px;
+display: flex;
+}
+.leftcardbtn33{
+    width: 50%;
+    height: 100%;
+    /* background-color: #00D171; */
+    
+}
+.rightcardbtn33{
+    width: 50%;
+    height: 100%;
+    /* background-color: #4a279b; */
+}
+ .werrightcardbtn33{
+    width: 100%;
+    height: 25%;
+    /* background-color: #30a38a; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+ }
+ .bigrightcardbtn33{
+    width: 100%;
+    height: 45%;
+    /* background-color: #aac513; */
+ }
+.nicrightcardbtn33{
+    width: 100%;
+    height: 30%;
+    /* background-color: #33b95b; */
+    padding-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+ 
+}
+.verleftcardbtn33{
+    width: 100%;
+    height: 50%;
+    /* background-color: #be8233; */
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.nicleftcardbtn33{
+    width: 100%;
+    height: 50%;
+    /* background-color: #253daa; */
+ 
+}
+.Balance{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 26px;
+color: #FFFFFF;
+
+}
+.Balancetetx{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 47px;
+color: #FFFFFF;
+margin-top: 10px;
+}
+
+.vernicleftcardbtn33{
+    width: 100%;
+    height: 70%;
+    /* background-color: darkgreen; */
+    display: flex;
+}
+.bueftcardbtn33{
+    width: 100%;
+    height: 30%;
+    /* background-color: rgb(44, 136, 189); */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}   
+.qwsxe{
+    width: 50%;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.fhhe{
+    width: 50%;
+    height: 100%;
+    padding-top: 30px;
+    padding-left: 25px;
+
+}
+
+.Valid{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 21px;
+color: #FFFFFF;
+
+}
+.Validtext{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 21px;
+color: #FFFFFF;
+}
+
+.boxajjsj{
+    width: 65px;
+height: 65px;
+border-radius: 50%;
+background: rgba(245, 245, 245, 1);
+opacity: 0.1;
+position: relative;
+left: 50px;
+bottom: 26px;
+}
+.boxajjsj2{
+    width: 65px;
+height: 65px;
+border-radius: 50%;
+background: rgba(245, 245, 245, 1);
+opacity: 0.1;
+position: relative;
+left: 20px;
+bottom: 10px;
+}
+
+.cardcredit{
+    width: 100%;
+    height: 20%;
+    background: transparent;
+    border-radius: 20px;
+    display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                margin-top: 5px;
+    }
+    .input1{
+    width: 30px;
+    height: 20px;
+    margin: 0 5px;
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+                color: #fff;
+                text-align: center;
+                font-size: 10px;
+    font-family: 'DM Sans';
+               
+    
+    }
+.nicrightcardbtn33{
+    display: flex
+}
+
+.boxbiskkwk{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    opacity: 0.4;
+    position: relative;
+    left: 15px;
+  
+    
+}
+.boxbiskkwk2{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    opacity: 0.4;
+  
+    
+}
+.input1{
+    cursor: pointer;
+}
+
+.bueftcardbtn33{
+    padding-left: 30px;
+}
+.boxleftwrap33tran{
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+border-radius: 20px;
+display: flex;
+
+}
+.leftboxleftwrap33tran{
+    width: 50%;
+    height: 100%;
+    padding-left: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.rightboxleftwrap33tran{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ternboxleft33{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+color: #72757A;
+
+}
+.ternboxleft334{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 31px;
+color: #171B1E;
+
+}
+.grapgic{
+    width: 130px;
+}
+.boxbigwrap33{
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+border-radius: 20px;
+display: flex;
+}
+
+.leftboxbigwrap33{
+    width: 50%;
+    height: 100%;
+    /* background-color: cadetblue; */
+    padding-left: 13px;
+    padding-top: 17px;
+}
+
+.rightboxbigwrap33{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(20, 116, 17);    */
+    padding-left: 5px;
+}
+.Balance33{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 31px;
+color: #171B1E;
+
+}
+.total33{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+color: #72757A;
+margin-top: 20px;
+
+}
+.textcard33wrp{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 21px;
+    color: #000000;
+    margin-top: 12px;
+}
+
+.cardbigwrap33{
+    width: 143px;
+height: 77px;
+background: #0E6EFF;
+border-radius: 10px;
+margin-top: 20px;
+padding-left: 20px;
+padding-top: 15px;
+}
+
+.cardbigwrap33Last{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 100;
+font-size: 14px;
+line-height: 21px;
+color: #FFFFFF;
+
+}
+.cardbigwrap33Last2{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 31px;
+color: #FFFFFF;
+
+
+
+}
+.cardbigwrap335{
+    width: 143px;
+    height: 77px;
+    background: rgba(245, 245, 245, 1);
+    border-radius: 10px;
+    margin-top: 12px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.cardbigwrap33Last11{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(114, 117, 122, 1);
+}
+
+.cardbigwrap33Last236{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 31px;
+    color: #171B1E;
+    
+}
+.cardbigwrap3358{
+    width: 143px;
+    height: 77px;
+    background: rgba(245, 245, 245, 1);
+    border-radius: 10px;
+    margin-top: 165px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.boxkonwrap33{
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+border-radius: 20px;
+
+}
+.verboxkonwrap33{
+    width: 100%;
+    height: 30%;
+    /* background-color: rgb(83, 175, 71); */
+    padding-left: 13px;
+    padding-top: 35px;
+}
+
+.cenkonwrap33{
+    width: 100%;
+    height: 10%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    padding-left: 13px;
+
+}
+.cencenboxkonwrap33{
+    width: 100%;
+    height: 45%;
+    /* background-color: crimson; */
+    display: flex;
+}
+.konkonwrap336{
+    width: 100%;
+    height: 15%;
+    /* background-color: #bcdbd9; */
+    display: flex;
+    align-items: flex-start;
+    padding-top: 5px;
+    padding-left: 13px;
+}
+.total335{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #72757A;
+    
+}
+.textcard33wrp6{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 21px;
+    color: #000000;
+    margin-top: 10px;
+}
+.asd{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    margin-left: 12px;
+
+}
+.dhg{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    margin-left: 54px;
+}
+.asd1{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+color: #72757A;
+    margin-left: 10px;
+}
+.dhg1{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #72757A;
+        margin-left: 48px; 
+}
+.dhg2{
+   font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #72757A;
+        margin-left: 45px; 
+}
+
+.leftcencenboxkonwrap33{
+    width: 70%;
+    height: 100%;
+    /* background-color: #03B664; */
+    padding-left: 13px;
+}
+.rightcencenboxkonwrap33{
+    width: 30%;
+    height: 100%;
+    /* background-color: #b828a0; */
+    padding-left: 10px;
+    padding-top: 2px;
+}
+.boxrightcencenboxkonwrap33{
+    width: 45px;
+    height: 10px;
+    background: #00D171;
+border-radius: 3px;
+}
+.Dolore{
+    color: #72757A;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 21px;
+        margin-top: 5px; 
+}
+.boxrightcencenboxkonwrap331{
+    width: 45px;
+    height: 10px;
+    background: rgba(255, 104, 77, 1);
+border-radius: 3px;
+margin-top: 25px;
+}
+.boxrightcencenboxkonwrap332{
+    width: 45px;
+    height: 10px;
+    background: rgba(1, 190, 255, 1);
+border-radius: 3px;
+margin-top: 25px;
+}
+.humsdf{
+    width: 20px;
+    cursor: pointer;
+}
+
+.wallet:hover{
+    border-bottom: 2px solid  #9b9b9b  ;
+    transition: 0.2s;
+}
+
+.wallet{
+    cursor: pointer;
+}
+
+.btncardbody2:hover{
+    box-shadow: 0 0 20px  rgb(20, 20, 20);;
+    transition: 0.8s;
+}
+.btncardbody:hover{
+    box-shadow: 0 0 20px  rgb(20, 20, 20);;
+    transition: 0.8s;
+  
+}
+
+.btncardbody3:hover{
+    box-shadow: 0 0 20px  rgb(20, 20, 20);;
+    transition: 0.8s;
+}
+.btncardbody4:hover{
+    box-shadow: 0 0 20px  rgb(20, 20, 20);;
+    transition: 0.8s;
+}
+.zxc{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+color: #72757A;
+
+}
+.btndash:hover{
+    background-color: #000000;
+    box-shadow: 0 0 20px  rgb(107, 97, 97);;
+}
+
+.blueboxwrap2:hover{
+    background-color: #000000;
+    transition: 0.8s;
+
+}
+.blueboxwrap4:hover{
+    background-color: #000000;
+    transition: 0.8s;
+
+}
+.blueboxwrap444:hover{
+    background-color: #000000;
+    transition: 0.8s;
+
+}
+
+.blueboxwrap554:hover{
+    background-color: #000000;
+    transition: 0.8s;
+
+}
+.boxrightkociv2:hover{
+    width: 35px;
+    height: 35px;
+    background: #0E6EFF;
+box-shadow: 0 7px 15px rgba(14, 110, 255, 0.3);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   color: #FFFFFF;
+}
+
+.boxrightkociv1{
+    cursor: pointer;
+}
+.boxrightkociv2{
+    cursor: pointer;
+}
+.boxrightkociv44{
+    cursor: pointer;
+}
+.boxrightkociv{
+    cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 3000px) {
+ .hum{
+     display: none;
+ }
+ .rightheadboxbigwrap2{
+     display: none;
+ }
+ .humsdf{
+     display: none;
+ }
+ .leftboxbigwrap33{
+     padding-top: 40px;
+ }
+   }
+
+
+@media screen and (max-width: 1200px) {
+   .btndash{
+    width: 150px;
+
+
+   }
+   .textdash{
+       font-size: 15px;
+   }
+   .alltextb{
+       font-size: 10px;
+   }
+   
+  }
+@media screen and (max-width: 1200px) {
+  .leftbox{
+      display: none;
+  }
+  .logorashboard{
+    font-size: 38px;
+    
+  }
+  .headsend{
+      display: none;
+  }
+.headlogo{
+    width: 35%;
+}
+.saerchhead{
+    width: 45%;
+}
+.avatarhead{
+    width: 55%;
+}
+}
+@media screen and (max-width: 750px) {
+   .logorashboard{
+    font-size: 30px;
+    
+  }
+  }
+  @media screen and (max-width: 600px) {
+  .saerchhead{
+      display: none;
+  }
+.headlogo{
+    width: 60%;
+
+}
+.profichead{
+    width: 40%;
+}
+.shamin{
+    font-size: 14px;
+}
+.emailprofil{
+    font-size: 12px;
+}
+.conheadwe{
+    display: none
+}
+.textprofic{
+    width: 100%;
+    
+}
+.hum{
+    display: flex;
+    cursor: pointer;
+}
+.kub{
+    display: none;
+}
+.bodywrapq{
+    flex-wrap: wrap;
+}
+.leftbodywrap{
+    flex-wrap: wrap;
+}
+.rightbodywrap{
+    flex-wrap: wrap;
+}
+.btncardbody{
+    width: 210px;
+    height: 100px;
+   
+
+}
+.btncardbody2{
+    width: 210px;
+    height: 100px;
+    /* margin-top: 20px; */
+
+}
+.btncardbody3{
+    width: 210px;
+    height: 100px;
+    
+
+
+}
+.btncardbody4{
+    width: 210px;
+    height: 100px;
+    /* margin-top: 20px; */
+
+}
+.cardbtntext{
+    font-size: 22px;
+}
+.totaltextbtn1{
+    font-size: 8px;
+}
+.totaltextbtn{
+    font-size: 8px;
+}
+.bodywrapq{
+    height: 60vh;
+}
+.rightheadboxbigwrap2{
+    display: flex;
+}
+.statisticwrap3{
+    display: none;
+}
+.leftbodywrap2{
+    width: 97%;
+}
+.textboxxeqbigwrap3{
+    display: none;
+}
+.print{
+    display: none;
+}
+.boxxeqbigwrap1{
+    width: 45%;
+}
+.boxxeqbigwrap2{
+    width: 45%;
+}
+.boxxeqbigwrap3{
+    width: 10%;
+}
+.rlawrap2{
+    font-size: 10px;
+}
+.codestextwrap2{
+    font-size: 12px;
+}
+.rlawrap33{
+    font-size: 10px;
+}
+.amoutwerty{
+    font-size: 12px;
+}
+.leftkonecleftbodywrap2{
+    display: none;
+}
+.rightkonecleftbodywrap2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.fhhff2{
+
+   margin-left: 30px;
+}
+.tochka{
+    margin-left: 0px;
+   
+}
+
+.blueboxwrap444{
+    width: 35px;
+    height: 35px;
+}
+.blueboxwrap4{
+    width: 35px;
+    height: 35px;
+}
+.blueboxwrap2{
+    width: 35px;
+    height: 35px; 
+}
+.blueboxwrap554{
+    width: 35px;
+    height: 35px; 
+}
+.boxgibleftwrap2big2{
+    
+    margin-top: 0px;
+    
+}
+.amout{
+    font-size: 15px;
+}
+.blueboxwrap3{
+    width: 34px;
+    height: 34px;
+}
+.photowrap2{
+    width: 15px;
+}
+.blueboxwrap44{
+    width: 34px;
+    height: 34px;  
+}
+.blueboxwrap544{
+    width: 34px;
+    height: 34px;   
+}
+.blueboxwrap355{
+    width: 34px;
+    height: 34px;  
+}
+.qtr{
+    width: 7px;
+}
+.qtr1{
+    width: 7px;
+    
+}
+.boxrightkociv{
+    width: 30px;
+    height: 30px;
+}
+.boxrightkociv1{
+    width: 30px;
+    height: 30px;
+}
+.boxrightkociv2{
+    width: 30px;
+    height: 30px;
+}
+.boxrightkociv44{
+    width: 30px;
+    height: 30px;
+}
+.textboxbtnkonich{
+    font-size: 12px;
+}
+.textboxbtnkonich2{
+    font-size: 12px;
+}
+.konwrap33{
+    display: none;
+}
+.leftwrap33{
+    width: 65%;
+}
+.bigwrap33{
+    width: 35%;
+}
+.rightboxbigwrap33{
+    display: none;
+}
+.leftboxbigwrap33{
+    width: 100%;
+}
+.cardleftwrap33{
+    width: 85%;
+    height: 65%;
+}
+.Balancetetx{
+    font-size: 28px;
+}
+.input1{
+    margin-top: 17px;
+}
+.leftwrap33tran{
+    width: 85%;
+    
+}
+.grapgic{
+    width: 110px;
+}
+.bigwrap33{
+    margin-left: 0;
+    position: relative;
+    right: 33px;
+   
+}
+.Valid{
+    font-size: 8px;
+}
+.Validtext{
+    font-size: 7px
+}
+.aghjhgfd{
+   width: 150px;
+}
+.boxbiskkwk{
+    width: 30px;
+    height: 30px;
+}
+.boxbiskkwk2{
+    width: 30px;
+    height: 30px;
+}
+.leftboxbigwrap33{
+    padding-top: 15px;
+ 
+}
+.bigwrap33{
+    height: 90%;
+}
+.textcard33wrp{
+    font-size: 22px;
+    margin-top: 4px;
+}
+.total33{
+    font-size: 12px;
+}
+.total33{
+    margin-top: 5px;
+}
+.leftboxbigwrap33{
+    padding-left: 10px;
+}
+.cardbigwrap33Last{
+    font-size: 10px;
+}
+.cardbigwrap33Last2{
+    font-size: 16px;
+    margin-top: 0px;
+}
+.cardbigwrap33Last11{
+    font-size: 10px;
+
+}
+.cardbigwrap33Last236{
+    font-size: 16px;
+    margin-top: 0px;
+}
+.cardbigwrap33{
+    width: 130px;
+}
+.cardbigwrap335{
+    width: 130px;
+}
+.Balance33{
+    font-size: 14px;
+}
+.boxrightkociv2:hover{
+    width: 30px;
+    height: 30px;
+    background: #0E6EFF;
+box-shadow: 0 7px 15px rgba(14, 110, 255, 0.3);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   color: #FFFFFF;
+}
+}
+  
+
+  
+    </style>
+</head>
+<body>
+    <div class="wrap">
+<div class="leftbox">
+<div class="headleftbox">
+    <div class="headheader">
+<img src="img/logophoto.svg" alt="logo">
+<p class="peliologo">PELIO</p>
+    </div>
+<div class="btndash">
+    <img src="img/house.svg" alt="house">
+    <p class="textdash">Dashboard</p>
+    
+</div>
+</div>
+<div class="bodyleftbox">
+<div class="textbodyleftbox">
+    <img src="img/photobody1.svg" alt="photo">
+    <p class="wallet">My Wallet</p>
+</div>
+
+<div class="textbodyleftbox">
+    <img src="img/palemet.svg" alt="photo">
+    <p class="wallet">Payment</p>
+</div>
+
+<div class="textbodyleftbox">
+    <img src="img/la.png" alt="photo">
+    <p class="wallet">Invoice</p>
+</div>
+<div class="textbodyleftbox">
+    <img src="img/settings 1.png" alt="photo">
+    <p class="wallet">Setting</p>
+</div>
+<div class="textbodyleftbox">
+    <img src="img/tran.png" alt="photo">
+    <p class="wallet">Transactions</p>
+</div>
+<p class="plam">Payment Admin Dashboard</p>
+<p class="alltextb">© 2010-2021 All rights reserved. <br>
+    Made by ❤️  Md Shamim Hossain</p>
+</div>
+</div>
+
+<div class="headerbigbody">
+    <div class="head">
+    <div class="headlogo">
+    <div class="headlogobox">
+          <img class="kub" src="img/kub.png" alt="">
+          <a href="leftbox.html">
+          <img class="hum" src="img/Hamburger_icon.svg.png" alt="">
+          </a>
+       <P class="logorashboard">Dashboard</P>
+       
+       
+    </div>
+    </div>
+    
+    <div class="saerchhead">
+    <div class="searchbtn">
+        <INput class="zxc" type="text" placeholder="Search Here..."></INput>
+        <img class="searchphoto" src="img/searchphoto.png" alt="search">
+    </div>
+    </div>
+    
+    <div class="konghead">
+    <div class="headsend">
+    <img class="qwe" src="img/call.png" alt="call">
+    <img class="qwee" src="img/sent1.png" alt="sent">
+    </div>
+    
+    <div class="profichead">
+    <div class="avatarhead">
+        <img class="avaphoto" src="img/ava.png" alt="AVA">
+    </div>
+    <div class="textprofic">
+        <p class="shamin">Hi Shamim</p>
+        <p class="emailprofil">engshamim@gmail.com</p>
+    </div>
+    <div class="conheadwe">
+        <img class="cles" src="img/vleuz.png" alt="con">
+    </div>
+    </div>
+    
+    
+    </div>
+    </div>
+    
+    <div class="bodywrapq">
+    <div class="leftbodywrap">
+       
+  <div class="btncardbody">
+      <div class="leftcardb">
+<div class="leftbtnleft">
+
+<div class="boxcardbtn">
+
+    <img class="spisok" src="img/cardbtn.png" alt="cardphoto">
+</div>
+
+   
+</div>
+<div class="rightbtnright">
+<p class="cardbtntext">32,568</p>
+<p class="totaltextbtn">Total Invoices</p>
+</div>
+
+</div>
+<div class="rightcardb">
+<div class="boxkolcard"></div>
+</div>
+
+  </div>
+
+
+  <div class="btncardbody2">
+    <div class="leftcardb">
+<div class="leftbtnleft">
+
+<div class="boxcardbtn2">
+
+  <img class="spisok" src="img/cardphoto2.png" alt="cardphoto">
+</div>
+
+
+</div>
+<div class="rightbtnright">
+<p class="cardbtntext">8,558</p>
+<p class="totaltextbtn">Paid Invoices</p>
+</div>
+
+</div>
+<div class="rightcardb">
+<div class="boxkolcard"></div>
+</div>
+
+</div>
+
+        
+
+
+
+
+    </div>
+
+    <div class="rightbodywrap">
+        <div class="btncardbody3">
+            <div class="leftcardb">
+        <div class="leftbtnleft">
+        
+        <div class="boxcardbtn3">
+        
+          <img class="spisok" src="img/cardphoto3.png" alt="cardphoto">
+        </div>
+        
+         
+        </div>
+        <div class="rightbtnright3">
+        <p class="cardbtntext">2,568</p>
+        <p class="totaltextbtn">Unpaid Invoices</p>
+        </div>
+        
+        </div>
+        <div class="rightcardb">
+        <div class="boxkolcard"></div>
+        </div>
+        
+        </div>
+
+
+        <div class="btncardbody4">
+            <div class="leftcardb">
+        <div class="leftbtnleft">
+        
+        <div class="boxcardbtn4">
+        
+          <img class="spisok" src="img/cardphoto4.png" alt="cardphoto">
+        </div>
+        
+         
+        </div>
+        <div class="rightbtnright3">
+        <p class="cardbtntext">668</p>
+        <p class="totaltextbtn1">Total Invoices Sent</p>
+        </div>
+        
+        </div>
+        <div class="rightcardb">
+        <div class="boxkolcard"></div>
+        </div>
+        
+        </div>
+
+
+
+
+
+
+    </div>
+
+        
+    </div>
+    
+<div class="bodywrap2">
+
+<div class="leftbodywrap2">
+<div class="boxbigwrap2">
+<div class="headboxbigwrap2">
+<div class="leftheadboxbigwrap2">
+<p class="lastertextwrap2">Latest Transactions</p>
+
+</div>
+
+<div class="rightheadboxbigwrap2">
+    <p class="lastertextwrap3">Statistics</p>
+    <a href="statistic.html">
+        <img class="humbtextwrap2" src="img/Hamburger_icon.svg.png" alt="Hum">
+        </a>
+</div>
+</div>
+
+<div class="biggerleftbodywrap2">
+<div class="boxgibleftwrap2big">
+<div class="boxxeqbigwrap1">
+    <div class="fhhff">
+<div class="blueboxwrap2">
+
+</div>
+    </div>
+    <div class="qwert">
+<p class="rlawrap2">#KLA-237-393-950</p>
+<p class="codestextwrap2">Apple.com</p>
+    </div>
+</div>
+
+<div class="boxxeqbigwrap2">
+    <div class="fhhff2">
+        <div class="blueboxwrap3">
+<img class="photowrap2" src="img/bodywrap2.png" alt="photolist">
+        </div>
+            </div>
+            <div class="qwert">
+        <p class="amout">Amount</p>
+        <p class="amoutwerty">$ 7,50,850</p>
+            </div>
+</div>
+
+
+<div class="boxxeqbigwrap3">
+    <p class="textboxxeqbigwrap3">5 min ago</p>
+    <img class="print" src="img/print.png" alt="print">
+    <img class="tochka" src="img/tochka.png" alt="tochka">
+</div>
+
+</div>
+
+
+
+
+
+
+    <div class="boxgibleftwrap2big2">
+        <div class="boxxeqbigwrap1">
+            <div class="fhhff">
+        <div class="blueboxwrap444">
+        
+        </div>
+            </div>
+            <div class="qwert">
+        <p class="rlawrap2">#KLA-237-393-950</p>
+        <p class="codestextwrap2">Google.Inc</p>
+            </div>
+        </div>
+        
+        <div class="boxxeqbigwrap2">
+            <div class="fhhff2">
+                <div class="blueboxwrap544">
+        <img class="photowrap2" src="img/bodywrap4.png" alt="photolist">
+                </div>
+                    </div>
+                    <div class="qwert">
+                <p class="amout">Amount</p>
+                <p class="amoutwerty">$ 9,93,98,159</p>
+                    </div>
+        </div>
+        
+        
+        <div class="boxxeqbigwrap3">
+            <p class="textboxxeqbigwrap3">5 min ago</p>
+            <img class="print" src="img/print.png" alt="print">
+            <img class="tochka" src="img/tochka.png" alt="tochka">
+        </div>
+        
+        </div>
+
+
+
+
+        <div class="boxgibleftwrap2big2">
+            <div class="boxxeqbigwrap1">
+                <div class="fhhff">
+            <div class="blueboxwrap554">
+            
+            </div>
+                </div>
+                <div class="qwert">
+            <p class="rlawrap2">#KLA-237-393-950</p>
+            <p class="codestextwrap2">Amazonretro.Inc</p>
+                </div>
+            </div>
+            
+            <div class="boxxeqbigwrap2">
+                <div class="fhhff2">
+                    <div class="blueboxwrap355">
+            <img class="photowrap2" src="img/bodywrap5.png" alt="photolist">
+                    </div>
+                        </div>
+                        <div class="qwert">
+                    <p class="amout">Amount</p>
+                    <p class="amoutwerty">$ 7,13,200</p>
+                        </div>
+            </div>
+            
+            
+            <div class="boxxeqbigwrap3">
+                <p class="textboxxeqbigwrap3">5 min ago</p>
+                <img class="print" src="img/print.png" alt="print">
+                <img class="tochka" src="img/tochka.png" alt="tochka">
+            </div>
+            
+            </div>
+            <div class="boxgibleftwrap2big2">
+                <div class="boxxeqbigwrap1">
+                    <div class="fhhff">
+                <div class="blueboxwrap4">
+                
+                </div>
+                    </div>
+                    <div class="qwert">
+                <p class="rlawrap33">#KLA-237-393-950</p>
+                <p class="codestextwrap2">Exehpder.com</p>
+                    </div>
+                </div>
+                
+                <div class="boxxeqbigwrap2">
+                    <div class="fhhff2">
+                        <div class="blueboxwrap44">
+                <img class="photowrap2" src="img/bodywra3.png" alt="photolist">
+                        </div>
+                            </div>
+                            <div class="qwert">
+                        <p class="amout">Amount</p>
+                        <p class="amoutwerty">$20,624</p>
+                            </div>
+                </div>
+                
+                
+                <div class="boxxeqbigwrap3">
+                    <p class="textboxxeqbigwrap3">5 min ago</p>
+                    <img class="print" src="img/print.png" alt="print">
+                    <img class="tochka" src="img/tochka.png" alt="tochka">
+                </div>
+                
+                </div>
+        </div>
+
+<div class="konecleftbodywrap2">
+<div class="leftkonecleftbodywrap2">
+<p class="leftetxtkonuic">Showing <b>1-4 </b> from <b> 60 </b> Data</p>
+</div>
+
+<div class="rightkonecleftbodywrap2">
+    <a href="Dash.html">
+<div class="boxrightkociv">
+    <img class="qtr" src="img/left.png" alt="left">
+</div>
+    </a>
+<a href="Dash.html">
+<div class="boxrightkociv2">
+    <p class="textboxbtnkonich2">1</p>
+
+</div>
+</a>
+<a href="lat2.html">
+<div class="boxrightkociv1">
+    <p class="textboxbtnkonich">2</p>
+    
+</div>
+</a>
+<a href="lat3.html">
+<div class="boxrightkociv2">
+    <p class="textboxbtnkonich2">3</p>
+    
+</div>
+</a>
+<a href="lat3.html">
+<div class="boxrightkociv44">
+    <img class="qtr1" src="img/right.png" alt="left">
+</div>
+</a>
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+</div>    
+
+
+<div class="statisticwrap3">
+<div class="boxstaticticwrap2">
+<div class="headboxstaticticwrap2">
+<p class="textstasticsricrightwrap2">Statistics</p>
+</div>
+
+<div class="bigboxstaticticwrap2">
+<img class="statisticphotorightw" src="img/statistic.png" alt="photostatistic">
+</div>
+
+<div class="nicboxstaticticwrap2">
+<div class="rightnicboxstaticticwrap2">
+<div class="boxboxrightwrap2n">
+    <div class="boxbtnwrapn"></div>
+    <p class="grennq">Green</p>
+</div>
+
+<div class="boxboxrightwrap2n2">
+    <div class="boxbtnwrapn2"></div>
+    <p class="grennq">Yellow</p>
+</div>
+
+
+
+
+</div>
+
+<div class="leftnicboxstaticticwrap2">
+    <div class="boxboxrightwrap2n">
+        <div class="boxbtnwrapn3"></div>
+        <p class="grennq">Blue</p>
+    </div>
+
+
+    <div class="boxboxrightwrap2n2">
+        <div class="boxbtnwrapn4"></div>
+        <p class="grennq">Red</p>
+    </div>
+
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+</div>
+
+<div class="wrap33">
+    
+<div class="leftwrap33">
+<div class="cardleftwrap33">
+   <div class="cardbtn33">
+<div class="leftcardbtn33">
+    <div class="verleftcardbtn33">
+<p class="Balance">Balance</p>
+<p class="Balancetetx">$ 4,929</p>
+    </div>
+    
+    <div class="nicleftcardbtn33">
+        <div class="vernicleftcardbtn33">
+
+<div class="qwsxe">
+<p class="Valid">Valid Thru</p>
+<p class="Validtext">03/23</p>
+</div>
+
+<div class="fhhe">
+    <p class="Valid">Name</p>
+<p class="Validtext">Jhon Doe</p>
+
+
+
+</div>
+
+
+        </div>
+
+<div class="bueftcardbtn33">
+<img class="aghjhgfd"  src="img/carde1.png" alt="">
+</div>
+
+
+    </div>
+    
+    </div>
+
+
+<div class="rightcardbtn33">
+<div class="werrightcardbtn33">
+<div class="boxajjsj"></div>
+<div class="boxajjsj2"></div>
+
+
+</div>
+
+<div class="bigrightcardbtn33">
+    <div class="cardcredit">
+        <input class="input1" type="text" maxlength="4">
+        <input class="input1" type="text" maxlength="4">
+        <input class="input1" type="text" maxlength="4">
+        
+    </div>
+</div>
+
+<div class="nicrightcardbtn33">
+<div class="boxbiskkwk"></div>
+<div class="boxbiskkwk2"></div>
+
+</div>
+
+
+</div>
+
+
+   </div>
+
+
+
+
+</div>
+
+<div class="leftwrap33tran">
+<div class="boxleftwrap33tran">
+    <div class="leftboxleftwrap33tran">
+<p class="ternboxleft33">Transactions</p>
+<p class="ternboxleft334">5,793</p>
+    </div>
+
+<div class="rightboxleftwrap33tran">
+<img class="grapgic" src="img/grapgic.png" alt="grapgic">
+</div>
+
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+<div class="bigwrap33">
+<div class="boxbigwrap33">
+<div class="leftboxbigwrap33">
+    <img class="humsdf" src="img/Hamburger_icon.svg.png" alt="">
+<p class="Balance33">Balance Details</p>
+<p class="total33">Total Balance</p>
+<p class="textcard33wrp">
+    $221,478</p>
+
+<div class="cardbigwrap33">
+    <p class="cardbigwrap33Last">Last Month</p>
+    <p class="cardbigwrap33Last2" >$ 14,849</p>
+  
+</div>
+
+<div class="cardbigwrap335">
+    <p class="cardbigwrap33Last11">Taxes</p>
+    <p class="cardbigwrap33Last236" >$255.25</p>
+  
+</div>
+
+
+</div>
+
+<div class="rightboxbigwrap33">
+    <div class="cardbigwrap3358">
+        <p class="cardbigwrap33Last11">Expenses</p>
+        <p class="cardbigwrap33Last236" >$ 14,849</p>
+      
+    </div>
+
+    <div class="cardbigwrap335">
+        <p class="cardbigwrap33Last11">Debt</p>
+        <p class="cardbigwrap33Last236" >$365,478</p>
+      
+    </div>
+
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+<div class="konwrap33">
+
+<div class="boxkonwrap33">
+<div class="verboxkonwrap33">
+    <p class="total335">Activity</p>
+    <p class="textcard33wrp6">
+       
+        $ 48,284</p>
+</div>
+
+<div class="cenkonwrap33">
+<p class="asd">287</p>
+<p class="dhg">312</p>
+<p class="dhg">176</p>
+</div>
+
+<div class="cencenboxkonwrap33">
+<div class="leftcencenboxkonwrap33">
+
+
+<img src="img/graphfik2.png" alt="graphfik2">
+</div>
+
+<div class="rightcencenboxkonwrap33">
+<div class="boxrightcencenboxkonwrap33"></div>
+<p class="Dolore">Dolore sit amet</p>
+
+<div class="boxrightcencenboxkonwrap331"></div>
+<p class="Dolore">Dolore sit amet</p>
+
+<div class="boxrightcencenboxkonwrap332"></div>
+<p class="Dolore">Dolore sit amet</p>
+</div>
+
+</div>
+
+
+<div class="konkonwrap336">
+    <p class="asd1">Sun</p>
+    <p class="dhg1">Mon</p>
+    <p class="dhg2">Tue</p>
+</div>
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+</div>
+
+    </div>
+
+  
+</body>
+</html>
